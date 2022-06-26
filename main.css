@@ -39,6 +39,9 @@ nav ul li{
     padding: 0.5rem 1.5rem ;
     font-weight: bolder;
 }
+a{
+    text-decoration: none;
+}
 .fund-raising-section-and-picture{
     display: flex; 
     justify-content: space-evenly; 
