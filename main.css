@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
+
+body{
+    font-family: 'open sans';
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+header{
+    background-color: #0A2640;
+    width: 100%;
+    padding: 2rem 4rem 5rem;
+    color: white;  
+}
+.logonav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 1rem 2rem 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 1rem;
+    font-weight: bolder;
+
+}
+.login{
+    background-color: white;
+    color: #0A2640;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem 1.5rem ;
+    font-weight: bolder;
+}
+.fund-raising-section-and-picture{
+    display: flex; 
+    justify-content: space-evenly; 
+    margin: 0.7rem; 
+}
+.fund-raising-section-text{
+    margin: 3rem 1rem ;
+    line-height: 3rem;
+}
+.fund-raising-section-text h2{
+    font-weight: lighter;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.fund-raising-section-text p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+}
+.btn1,.btn2{
+padding: 1rem 2.2rem;
+margin: 1.5rem 0.5rem;
+border-radius: 1.5rem;
+}
+.btn1{
+    background-color: #69E6A6;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #0A2640;
+    border: none;
+}
+.btn2{
+    background-color: #0A2640;
+    border: 2px solid white;
+    color: white;
+    padding: 1rem 3rem;
+}
+.getstarted{
+    margin: 3rem  auto;
+    padding: 1rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.yourdreams{
+    margin: 0rem auto;
+    padding: 0rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.section1 div h3 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-align: left;
+}
+.section1 div p{
+    text-align: center; 
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.stories{
+    margin:2rem 1rem 0rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0.5rem 2rem;
+}
+/* .users div{
+    margin: 2rem;
+} */
+.users div h4{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.users div p{
+    text-align: left;
+    font-size: 1rem;
+    /* padding: 2rem; */
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+}
+.usertext{
+    margin: 3rem;
+    width: 40%;
+}
+.users div button{
+    margin-top: 6rem;
+    padding: 1rem 3rem;
+    background-color: #0A2640;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+.users2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.5rem 2rem;  
+}
+/* .user-2-image{
+    width: 50%;
+} */
+.user-2-text{
+    margin: 3rem;
+    width: 40%;
+}
+.users2 div h4{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.users2 div p{
+    text-align: left;
+    font-size: 1rem;
+    /* margin-top: 2rem; */
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.users2 div button{
+    margin-top: 6rem;
+    padding: 1rem 3rem;
+    background-color: #0A2640;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+.testimonial-section{
+    background-color: #0A2640;
+    /* position: absolute; */
+    padding-bottom: 5rem;
+}
+.testimonial{
+    font-size: 3rem;
+    color: white;
+    margin: 2rem 2rem 1rem;
+    padding: 2rem 2rem 1rem;
+}
+.firstcard{
+    background-color: white;
+    border-radius: 1rem;
+    width: calc(1/3*100%);
+    border: none;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 4rem;
+}
+.picnname{
+    display: flex;
+    margin: 1rem 0.5rem;
+}
+.picnname div div{
+    padding-left: 1rem;
+    font-weight: bolder;
+}
+.picnname div .manager{
+    padding-left: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.imgdiv img{
+    margin: -5rem 4rem 0rem 4rem;
+    max-width: 90%;
+}
+.imgdiv{
+display: flex;
+justify-content: center;
+}
+.connect-faq{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 2rem 0rem;
+    padding: 3rem;
+}
+.connect{
+    font-size: 2rem;
+    width: 50%;
+    padding: 2rem 6rem;
+    margin-top: 2.5rem;
+    line-break: normal;
+}
+.faq{
+    font-size: 2rem;
+    width: 50%; 
+    padding: 2rem; 
+}
+.FAQ-text{
+font-weight: bold;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.blog-item {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: calc(1/3*100%);
+}
+.blog-item .category{
+    color: #0A2640;
+    font-weight: bolder;
+    margin: 2rem;
+}
+.blog-item p{
+    font-size: 1.5rem;
+    margin: 2rem 1rem 1rem;
+    text-align: left;
+}
+/* .blog-item span img{
+    margin-bottom: 0rem;
+    margin-top:2rem auto;
+} */
+.loadmore {
+    margin: 0rem auto;
+    text-align: center;
+}
+.loadmore button{
+    padding: 1rem 3rem;
+    border: 2px solid #0A2640;
+    border-radius: 2rem;
+    background-color: white;
+    color: #0A2640;
+    font-weight: bolder;
+}
+.get-in-touch{
+    background-color: #0A2640;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.get-in-touch p{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 3rem 2rem 4rem;
+}
+.get-in-touch div{
+    /* margin: 3rem 2rem 4rem; */
+    text-align: center;   
+}
+.get-in-touch span input{
+    text-align: left;
+    padding: 1rem 6rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bolder;
+    /* margin: 0rem auto; */
+}
+.get-in-touch span button{
+    text-align: center;
+    background-color: #69E6A6;
+    color: #0A2640;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bolder;
+    /* margin: 0rem auto;   */
+}
+footer{
+    display: flex;
+    justify-content:center;
+    padding: 0rem auto;
+}
+.getfund{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.getfund div{
+font-size: 2rem;
+margin-bottom: 2rem;
+font-weight: bolder;
+}
+.fundraisefor{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.fundraisefor div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+.resources{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.resources div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+li{
+    list-style: none;
+    text-align: left;
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+    body{
+        max-width: 100%;
+    }
+    .logonav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+.fund-raising-section-and-picture{
+    flex-direction: column;
+}
+.fund-raising-section-img img{
+    max-width: 90%;
+    margin-top: 1rem;
+}
+.yourdreams{
+    width: 100%;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+    margin: 0rem auto;
+    padding: 0rem auto;
+    
+}
+.section1{
+    flex-direction: column;
+    place-items: center;
+}
+
+.section1 div{
+    margin: 2rem 0rem;
+}
+.section1 div img{
+    width: 100%;
+}
+.users{
+    flex-direction: column;
+}
+.user-img img{
+    max-width: 95%;
+}
+.usertext{
+    width: 90%;
+    margin: 0rem;
+}
+.usertext h4{
+    max-width: 75%;
+    text-align: center;
+    margin: 0rem;
+}
+/* .users2{
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    padding-top: 0rem;
+} */
+.user-2-text{
+    width: 90%;
+    
+}
+.users-2-text h4{
+    max-width: 80%;
+    text-align: center;
+    margin: 0rem;
+}
+.user-2-image img{
+    max-width: 95%;
+}
+.testimonial{
+    font-size: 1rem;
+    width: 100%;
+}
+.testimonial-cards{
+    flex-direction: column;
+    
+}
+.firstcard{
+    width: 100%;
+    padding: 0rem;
+    margin: 1rem;
+    align-items: center;
+    }
+.imgdiv img{
+    max-width: 90%;
+}
+.connect-faq{
+    flex-direction: column;
+}
+.connect{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.faq{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.blog{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.blog-item {
+    /* align-items: center; */
+    padding: 0rem;
+    margin: 2rem;
+    width: 100%;
+    }
+    .blog-item div img{
+        width: 100%;
+    }
+.get-in-touch{
+    max-width: 95%;
+}
+footer{
+    flex-direction: column;
+}
+
+
+}
+
+
+
+@media  (min-width: 300px) and (max-width: 599px){
+    body{
+        max-width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    *{
+        margin: 0rem;
+        box-sizing: border-box;
+    }
+    .getfund p{
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    .logonav{
+        flex-direction: column;
+        /* width: 100%; */
+        align-items: center;
+    }
+    .logonav h1{
+        align-items: center;
+        text-align: left;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    /* .login{
+        padding: 0rem 3rem;
+        margin: 0rem;
+    } */
+
+.fund-raising-section-and-picture{
+    flex-direction: column;
+    align-items: center;
+}
+.fund-raising-section-img{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+.fund-raising-section-img img{
+    width: 100%;
+    margin: 0rem;
+}
+.yourdreams{
+    width: 100%;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+    margin: 0rem auto;
+    padding: 0rem auto;
+    
+}
+.section1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.users{
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    text-align: center;
+
+}
+.user-img img{
+    width: 100%;
+}
+.usertext{
+    width: 100%;
+    text-align: center;
+}
+.usertext h4{
+    max-width: 100%;
+    text-align: center;
+    margin: 0rem;
+    text-align: center;
+}
+.usertext p{
+    max-width: 100%;
+    text-align: center;
+    margin: 0rem;
+    text-align: center;
+}
+.users div button{
+    margin-top: 1rem;
+}
+.users2{
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    padding-top: 0rem;
+    text-align: center;
+}
+.user-2-text{
+    width: 100%;
+    margin: 0rem;
+}
+.users-2-text h4{
+    max-width: 100%;
+    text-align: center;
+    margin: 0rem;
+}
+.user-2-image img{
+    max-width: 100%;
+}
+.users2 div button{
+    margin: 1rem 1rem 2rem;
+}
+
+.testimonial{
+    font-size: 2rem;
+}
+.testimonial-cards{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem ;
+}
+.firstcard{
+width: 100%;
+padding: 0rem;
+margin: 1rem;
+align-items: center;
+}
+.imgdiv img{
+    max-width: 90%;
+}
+.connect-faq{
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0.2rem;
+}
+.connect{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem;
+}
+.faq{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem;
+}
+.blog{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0rem;
+}
+.blog-item {
+align-items: center;
+padding: 0rem;
+margin: 1rem;
+width: 100%;
+}
+.blog-item p{
+ margin: 0rem;
+}
+
+.get-in-touch p{
+font-size: 1.5rem;
+margin: 1rem;
+}
+
+.get-in-touch span input{
+margin: 1rem;
+/* display: block; */
+padding: 0.5rem;
+width: 100%;
+}
+.get-in-touch span button{
+padding: 0.5rem 2rem;
+}
+footer{
+    flex-direction: column;
+}
+.getfund{
+    width: 100%;
+}
+
+.fundraisefor{
+width: 100%;
+}
+.resources{
+width: 100%;
+}
+li{
+    list-style-type: circle;
+}
+
+
+}
+
