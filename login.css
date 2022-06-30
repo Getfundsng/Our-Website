@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'open sans';
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    /* background-color: white;
+    background-blend-mode: normal; */
+    width: 60%;
+    height: 550px;
+    margin: 2rem auto;
+}
+.picdiv{
+    width: 50%;
+    background-image: url("images/loginimg.png");
+    background-color: #0A2640;
+
+}
+.formdiv{
+    padding: 1.5rem;
+    background-image: url("images/loginimage2.png");
+    background-size: cover;
+    width: 50%;
+    background-attachment: none;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+}
+.formdiv div{
+    background-color: white;
+    margin: 3rem 1.5rem 3rem auto;
+    padding: 2rem;
+}
+
+.formdiv div h3{
+   margin: 0rem 0rem 1rem ;
+   font-weight: lighter;
+   font-size: x-large;
+}
+.loginbtn{
+    background-color: #0A2640;
+    color: white;
+    width: 95%;
+    padding: 1rem 2rem;
+}
+
+.formdiv div small a{
+    text-align: center;
+ }
+ .loginbtn, form input{
+    border-radius: 0.5rem;
+ }
+ a{
+    text-align: center;
+    text-decoration: none;
+ }
+
+form input{
+    padding: 0.6rem 2.5rem;
+    margin: 0.5rem 0rem;
+}
+
+@media (max-width:1000px) {
+main{
+    width: 90%;
+}
+}
+
+
+
+@media (max-width:900px) {
+    main{
+        width: 90%;
+    }
+    form input{
+        padding: 0.6rem 1rem;
+        margin: 0.5rem 0rem;
+    }
+    }
+
+    
+@media (max-width:800px) {
+    main{
+        width: 90%;
+    }
+    form input{
+        padding: 0.6rem 1rem;
+        margin: 0.5rem 0rem;
+    }
+    }
+    
+@media (max-width:750px) {
+    main{
+        width: 90%;
+    }
+    form input{
+        padding: 0.6rem 0rem;
+        margin: 0.5rem 0rem;
+    }
+    }
+    @media (max-width:650px) {
+        main{
+            width: 100%;
+        }
+        .picdiv{
+            width: 40%;
+        
+        }
+        .formdiv{
+            width: 60%;
+        }
+        form input{
+            padding: 0.6rem 0rem;
+            margin: 0.5rem -1rem;
+        }
+
+        }
+
+        @media (max-width:550px) {
+            main{
+                width: 100%;
+                flex-direction: column;
+            }
+            .formdiv{
+                width: 100%;
+            }
+            form input{
+                padding: 0.6rem 0rem;
+                margin: 0rem;
+                width: 100%;
+            }
+            
+        }

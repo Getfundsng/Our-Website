@@ -35,11 +35,13 @@ nav ul li{
     background-color: white;
     color: #0A2640;
     border: none;
+    margin-top: 0rem;
     border-radius: 1.2rem;
     padding: 0.5rem 1.5rem ;
     font-weight: bolder;
 }
 a{
+    /* color: white; */
     text-decoration: none;
 }
 .fund-raising-section-and-picture{
@@ -495,6 +497,7 @@ li{
 }
 footer{
     flex-direction: column;
+    width: 90%;
 }
 
 
@@ -687,6 +690,7 @@ padding: 0.5rem 2rem;
 }
 footer{
     flex-direction: column;
+    width: 90%;
 }
 .getfund{
     width: 100%;
