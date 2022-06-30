@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
 *{
     border: 0;
     margin: 0;
@@ -398,54 +397,62 @@ button.sub-btn {
     font-size: 15px;
 
 }
+
+
 /* =========== End section End =============== */
-footer{
+
+/* =========== Footer section Start =============== */
+.footer{
     display: flex;
-    place-content:space-around;
-    padding: 0rem auto;
-    /* margin: 0rem 0rem 0rem 5rem; */
-    color: black;
-}
-.getfund{
+    justify-content: space-evenly;
+    gap: 140px;
     text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
+    margin: 0 auto;
 }
-.getfund div{
-font-size: 2rem;
-margin-bottom: 2rem;
-font-weight: bolder;
+
+.footertext{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 58px;
+    color: #777777;
 }
-/* .getfund p{
-    margin-top: 3rem;
-} */
-.fundraisefor{
-    text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
+.maintext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    width: 353.8px;
 }
-.fundraisefor div{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
-    }
-.resources{
-    text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
+.subtext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
 }
-.resources div{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
-    }
-li{
-    list-style: none;
-    text-align: left;
+.fr_maintxt,.re_maintxt{
+    font-family: 'Open Sans';
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    padding-bottom: 40px;
 }
+.fr_subtxt,.re_subtxt{
+    list-style-type: none;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #777777;
+
+}
+
+/* =========== Footer section End =============== */
+
 
 
 
@@ -462,6 +469,18 @@ li{
     .info-number{
         flex-direction: column;
         align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .maintext{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .fl{
+        padding-top: 50px;
+        width: 300px;
     }
     .team-flex-2{
         row-gap: 50px;
@@ -488,22 +507,6 @@ li{
         margin: 0 100px;
         padding-bottom: 96px;
     }
-    footer{
-        flex-direction: column;
-    }
-    .getfund{
-        width: 100%;
-    }
-    
-    .fundraisefor{
-    width: 100%;
-    }
-    .resources{
-    width: 100%;
-    }
-    li{
-        list-style-type: circle;
-    }
 }
 
 @media (max-width:685px) {
@@ -512,23 +515,6 @@ li{
     }
     .text{
         row-gap: 90px;
-    }
-    footer{
-        flex-direction: column;
-        width: 90%;
-    }
-    .getfund{
-        width: 100%;
-    }
-    
-    .fundraisefor{
-    width: 100%;
-    }
-    .resources{
-    width: 100%;
-    }
-    li{
-        list-style-type: circle;
     }
 }
 @media (max-width:477px) {
@@ -549,22 +535,5 @@ li{
     .info-number{
         transform: scale(0.8);
         row-gap: 40px;
-    }
-    footer{
-        flex-direction: column;
-        width: 90%;
-    }
-    .getfund{
-        width: 100%;
-    }
-    
-    .fundraisefor{
-    width: 100%;
-    }
-    .resources{
-    width: 80%;
-    }
-    li{
-        list-style-type: circle;
     }
 }
