@@ -31,6 +31,11 @@ nav ul li{
     font-weight: bolder;
 
 }
+.menu{
+    color: white;
+    text-decoration: none;
+}
+
 .login{
     background-color: white;
     color: #0A2640;
@@ -39,11 +44,9 @@ nav ul li{
     border-radius: 1.2rem;
     padding: 0.5rem 1.5rem ;
     font-weight: bolder;
-}
-a{
-    /* color: white; */
     text-decoration: none;
 }
+
 .fund-raising-section-and-picture{
     display: flex; 
     justify-content: space-evenly; 
@@ -56,17 +59,20 @@ a{
 .fund-raising-section-text h2{
     font-weight: lighter;
     font-size: 3rem;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 .fund-raising-section-text p{
     font-weight: lighter;
     font-size: 1.2rem;
     line-height: 2.2rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+}
+.fund-raising-section-text div{
+    margin-top: 1.5rem;
 }
 .btn1,.btn2{
 padding: 1rem 2.2rem;
-margin: 1.5rem 0.5rem;
+margin: 1rem 0.5rem;
 border-radius: 1.5rem;
 }
 .btn1{
@@ -75,19 +81,51 @@ border-radius: 1.5rem;
     font-weight: bolder;
     color: #0A2640;
     border: none;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: #0A2640;
+    border: 2px solid white;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
 }
 .btn2{
     background-color: #0A2640;
     border: 2px solid white;
     color: white;
     padding: 1rem 3rem;
+    text-decoration: none;
 }
+.btn2:hover{
+    background-color: #69E6A6;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #0A2640;
+    border: none;
+    text-decoration: none;
+}
+
 .getstarted{
     margin: 3rem  auto;
     padding: 1rem auto;
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+}
+.getstarted a{
+    text-decoration: none;
+    color: #0A2640;
+    background-color:#69E6A6;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.getstarted a:hover{
+    text-decoration: none;
+    color: #69E6A6;
+    background-color:#0A2640;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 .yourdreams{
     margin: 0rem auto;
@@ -285,18 +323,23 @@ font-weight: bold;
     margin: 0rem auto;
     text-align: center;
 }
-.loadmore button{
+.loadmore a{
     padding: 1rem 3rem;
     border: 2px solid #0A2640;
     border-radius: 2rem;
     background-color: white;
     color: #0A2640;
     font-weight: bolder;
+    text-decoration: none;
+}
+.loadmore a:hover{
+background-color: #0A2640;
+color: white;
 }
 .get-in-touch{
     background-color: #0A2640;
     padding: 2rem;
-    margin: 1rem;
+    margin: 2rem 1rem;
     border-radius: 0.5rem;
 }
 
@@ -319,7 +362,7 @@ font-weight: bold;
     font-weight: bolder;
     /* margin: 0rem auto; */
 }
-.get-in-touch span button{
+.get-in-touch span a{
     text-align: center;
     background-color: #69E6A6;
     color: #0A2640;
@@ -327,7 +370,12 @@ font-weight: bold;
     border: none;
     border-radius: 2rem;
     font-weight: bolder;
-    /* margin: 0rem auto;   */
+    text-decoration: none;
+}
+.get-in-touch span a:hover{
+    background-color: #0A2640;
+    color: white;
+    border: 1px solid white;
 }
 footer{
     display: flex;
@@ -505,7 +553,7 @@ footer{
 
 
 
-@media  (min-width: 300px) and (max-width: 599px){
+@media  (min-width: 250px) and (max-width: 599px){
     body{
         max-width: 100%;
         margin: 0rem;
@@ -520,10 +568,16 @@ footer{
         box-sizing: border-box;
     }
 
+    header{
+        width: 100%;
+        padding: 2rem 0rem 5rem; 
+    }
+
     .logonav{
         flex-direction: column;
         /* width: 100%; */
         align-items: center;
+        place-content: space-evenly;
     }
     .logonav h1{
         align-items: center;
@@ -534,15 +588,23 @@ footer{
     nav ul{
         flex-direction: column;
     }
-    /* .login{
-        padding: 0rem 3rem;
-        margin: 0rem;
-    } */
 
 .fund-raising-section-and-picture{
     flex-direction: column;
     align-items: center;
 }
+.fund-raising-section-text div{
+    margin:0rem;
+    padding: 0rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.btn1,.btn2{
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 1rem;
+    }
 .fund-raising-section-img{
     width: 100%;
     padding: 0rem;

@@ -32,6 +32,10 @@ nav ul li{
     font-weight: bolder;
 
 }
+.menu{
+    color: #0A2640;
+    text-decoration: none;
+}
 .login{
     background-color: white;
     color: #0A2640;
