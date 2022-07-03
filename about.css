@@ -3,35 +3,47 @@
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+html,body{
+    overflow-x: hidden;
 }
 
-/* body{
-    width: 100%;
-    background-position: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-section{
-    width: 100vw;
-    background-position: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 /* =========== Hero section Start =============== */
 .hero{
-    box-sizing: border-box;
+    box-sizing: content-box;
     background-color: #65E4A3;
     color: #0A2640;
-    /* height: 100vh; */
 }
-
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 50;
+  font-size: 30px;
+  margin: auto 0 ;
+  display: none;
+}
+.navv.active::after{
+    content: '';
+    position: absolute;
+    right: 365px;
+    top: 80px;
+    margin: auto;
+    border-bottom: 4px solid #0A2640;
+    border-radius: 5px;
+    width: 19px;
+}
 .nav-list{
     display: flex;
     justify-content: flex-end;
     gap: 40px;
     padding-top: 56px;
     margin: 0px 100px 103px 100px;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
@@ -39,35 +51,39 @@ section{
 
 }
 
-ul{
-    list-style-type: none;
-}
+
 .nav-list a{
     text-decoration: none;
     color: #0A2640;
 }
-a.btn1{
+button.btn{
     border: 2px solid #0A2640;
     padding: 8px 40px;
     margin-top: -8px;
     border-radius: 24px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
 }
+
 /* =========== Hero Text Start =============== */
 .text{
     display: flex;
     justify-content: space-evenly;
+    gap: 100px;
     padding-bottom: 96px;
 }
 .text-1{
     font-family: 'Manrope';
     font-size: 40px;
     font-weight: 600;
-    /* text-align: left; */
     display: flex;
     flex-direction: column;
-    line-height: 72px;
+    line-height: 60px;
     letter-spacing: 0em;
-    /* margin: 0 100px; */
     max-width: 600px;
     max-height: 183px;
 }
@@ -97,7 +113,7 @@ a.btn1{
 
 /* =========== Number section Start =============== */
 .numbers{
-    background-color: #E5E5E5;
+    background-color: #fff;
     text-align: center;
     padding-top: 94px;
     padding-bottom: 68px;
@@ -150,11 +166,7 @@ a.btn1{
     justify-content: center;
     padding: 100px 0;
 }
-.story-info{
-    /* margin-left: 298px;
-    margin-right: 303px; */
 
-}
 .head-text{
     font-family: 'Open Sans';
     font-size: 36px;
@@ -172,13 +184,13 @@ a.btn1{
     line-height: 32px;
     letter-spacing: 0em;
     text-align: justify;
-    margin: 0 100px;
+    margin: 0 300px;
     padding-bottom: 50px;
 }
 /* =========== Story section End =============== */
 /* =========== Team section Start =============== */
 .team{
-    background-color: #E5E5E5;
+    background-color: #fff;
     padding-bottom: 124px;
     
 }
@@ -186,7 +198,6 @@ a.btn1{
     display: flex;
     justify-content: center;
     padding-top: 124px;
-    /* margin-left: 250px; */
 }
 .container-fluid{
     display: flex;
@@ -201,8 +212,6 @@ a.btn1{
     letter-spacing: 0em;
     text-align: center;
     padding-bottom: 12px;
-    /* padding-left: 50px;
-    padding-right: 300px; */
     color: #777777;
     
 }
@@ -213,8 +222,6 @@ a.btn1{
     line-height: 72px;
     letter-spacing: 0em;
     text-align: center;
-    /* padding-left: 50px;
-    padding-right: 300px; */
 }
 .team-text-3{
     font-family: 'Open Sans';
@@ -223,11 +230,8 @@ a.btn1{
     line-height: 32px;
     letter-spacing: 0em;
     color: #777777;
-    /* padding-left: 50px;
-    padding-right: 400px;
-    text-align: left; */
     text-align: justify;
-    margin: 0 100px;
+    margin: 0 300px;
     padding-bottom: 56px;
 }
 .team-flex-1{
@@ -235,7 +239,7 @@ a.btn1{
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 75px;
+    gap: 80px;
     padding-bottom: 110px;
 }
 
@@ -258,8 +262,6 @@ a.btn1{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 46px;
-    /* margin-left: 250px; */
-
 }
 
 .middle{
@@ -275,14 +277,16 @@ a.btn1{
 }
 .container1 {
     padding-top: 118px;
+    padding-bottom: 118px;
 }
-.container1 .head-text{
+.head-text2{
     text-align: center;
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
+    padding-bottom: 12px;
 }
 .container1 .par-text{
     font-family: 'Manrope';
@@ -296,29 +300,31 @@ a.btn1{
 
 hr {
     border: none;
-    max-width: 1099px;
+    max-width: 1199px;
     align-content: center;
-    border-top: 3px solid #fff;
+    border-top: 1px solid #fff;
     color: #fff;
     overflow: visible;
     text-align: center;
     height: 1px;
     margin: auto;
+    padding-bottom: 84px;
 }
 .blog-flex-content{
     display: flex;
     justify-content: space-evenly;
-    column-gap: 173px;
+    gap: 3px;
     padding-bottom: 80px;
 }
 .text-head{
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 48px;
     font-weight: 400;
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
-    flex: 0 0 30%;
+    height: 56px;
+    width: 500px;
 }
 .text-head span{
     color: #69E6A6;
@@ -335,15 +341,23 @@ hr {
     letter-spacing: 0em;
     text-align: justify;
     margin: 0 30px;
-    flex: 0 0 30%;
+    max-width: 509px;
+    height: 102px;
 }
 /* =========== Blog section End =============== */
 /* =========== End section Start =============== */
 .container3{
     padding-top: 124px;
-    margin: 0 20%;
-    margin-bottom: 84px;
+    margin: 0 auto;
+    margin-bottom: 304px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    /* max-width: 1200px;
+    height: 391px; */
     box-sizing: border-box;
+    text-align: center;
+    align-items: center;
 }
 
 .subscribe{
@@ -355,15 +369,18 @@ hr {
     max-width: 1200px;
     padding: 100px;
     align-items: center;
+    box-shadow: 20px rgba(0,0,0,0.5);
 }
+
 .subscribe-head-text {
-    font-family: 'Open Sans';
-    font-size: 40px;
+    height: 139px;
+    font-family: 'Manrope';
+    font-size: 48px;
     font-weight: 400;
-    line-height: 32px;
+    /* line-height: 72px; */
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFFFFF;      
 }
 
 .subscribe-head-button {
@@ -375,11 +392,9 @@ hr {
 
 
 .input {
-    background-color: #FFFFFF;
-    border: 0px solid;
-    border-radius: 25px;
-    height: 3rem;
-    width: 17rem;
+    height: 56px;
+    width: 370px;
+    border-radius: 240px;    
     font-family: 'Open Sans';
     font-size: 15px;
 }
@@ -389,13 +404,14 @@ hr {
 
 button.sub-btn {
     background-color: #65E4A3;
-    border: 0px solid;
-    border-radius: 25px;
-    height: 3rem;
-    width: 10rem;
     font-family: 'Open Sans';
-    font-size: 15px;
-
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    height: 60px;
+    width: 210px;
+    border-radius: 56px;
 }
 
 
@@ -405,9 +421,10 @@ button.sub-btn {
 .footer{
     display: flex;
     justify-content: space-evenly;
-    gap: 140px;
+    flex-wrap: wrap;
+    gap: 130px;
     text-align: left;
-    margin: 0 auto;
+    /* margin: 0 120px; */
 }
 
 .footertext{
@@ -416,6 +433,7 @@ button.sub-btn {
     flex-direction: column;
     gap: 58px;
     color: #777777;
+    padding-top: 11.79px;
 }
 .maintext{
     font-family: 'Open Sans';
@@ -442,7 +460,7 @@ button.sub-btn {
 }
 .fr_subtxt,.re_subtxt{
     list-style-type: none;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
@@ -461,10 +479,17 @@ button.sub-btn {
         min-width: 100%;
         background-size: cover;
     }
+    .blog-flex-content{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .text-head{
+        padding-top: 20px;
+    }
 
     .team-flex-1,
     .team-flex-2,
-    .blog-flex-content,
     .subscribe-head-button,
     .info-number{
         flex-direction: column;
@@ -507,16 +532,78 @@ button.sub-btn {
         margin: 0 100px;
         padding-bottom: 96px;
     }
+    .container3{
+        margin-bottom: 200px;
+    }
+    .content-text,.team-text-3{
+        margin: 0 150px;
+        text-align: left;
+    }
 }
 
 @media (max-width:685px) {
     .text-1{
         line-height: 50px;
     }
+
     .text{
         row-gap: 90px;
     }
 }
+@media (max-width:700px) {
+    .material-symbols-outlined{
+        display: inline-block;
+    }
+    .navv.active::after{
+        display: none;
+    }
+    .nav-list.responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navv{
+        display: none;
+    }
+    .navbar.responsive {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 15s all ease-in;
+    }
+    .nav-list.responsive .icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .content-text,.team-text-3{
+        margin: 0 10px;
+        text-align: left;
+    }
+    .nav-list.responsive a {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .btn.responsive {
+        display: block;
+    }
+}
+@media (max-width:540px) {
+    .info-digits{
+        font-size: 50px;
+    }
+    .text-head,.subscribe-head-text{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
 @media (max-width:477px) {
     .text{
         row-gap: 10px;
@@ -526,7 +613,7 @@ button.sub-btn {
         line-height: 20px;
     }
     .text-2{
-        font-size: 10px;
+        font-size: 15px;
         line-height: 20px;
     }
     .blog .par-text{
@@ -535,5 +622,34 @@ button.sub-btn {
     .info-number{
         transform: scale(0.8);
         row-gap: 40px;
+    }
+    .content-text,.team-text-3{
+        margin: 0 10px;
+        text-align: left;
+    }
+    .text-par{
+        text-align: left;
+        /* margin: 0 100px; */
+    }
+}
+
+@media (max-width: 410px) {
+    .btn{
+        display: none;
+    }
+    .material-symbols-outlined{
+        font-size: 50px;
+    }
+    .text{
+        margin-top: -50px;
+    }
+    .text-2, .text-1{
+        margin: 0 -30px;
+    }
+    .input{
+        width: 300px;
+    }
+    .subscribe-head-text{
+        margin-bottom: 10px;
     }
 }
