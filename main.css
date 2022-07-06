@@ -154,6 +154,7 @@ border-radius: 1.5rem;
     text-align: left;
 }
 .stories{
+    color: grey;
     margin:2rem 1rem 0rem auto;
     display: flex;
     justify-content: center;
@@ -225,6 +226,27 @@ border-radius: 1.5rem;
     border: none;
     color: white;
     font-weight: bolder;
+}
+.feedback{
+    background-color: rgb(211, 211, 211);
+    margin: 0.5rem 4rem 2rem; 
+    /* width: 90%;  */
+    padding: 4rem 30rem;
+    border: none;
+    border-radius: 1rem;
+}
+.btn1{
+    background-color: #0A2640;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    margin:0rem 30rem;
+    display: flex;
+    justify-content: center;
+
 }
 .testimonial-section{
     background-color: #0A2640;

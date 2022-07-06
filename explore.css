@@ -22,6 +22,10 @@ header{
     font-size: 1.5rem;
     margin: 1rem 2rem;
 }
+.logonav img{
+        width: 433px;
+        height: 51px;
+}
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -30,7 +34,9 @@ nav ul li{
     list-style-type: none;
     margin: 1rem;
     font-weight: bolder;
-
+}
+nav ul li a{
+    font-size: 1rem;
 }
 .menu{
     color: #0A2640;
@@ -66,11 +72,14 @@ a{
     padding-top:2rem ;
     padding-bottom:0.5rem ;
 }
+.browse-fund-raiser p{
+    margin-bottom:1.5rem ;
+}
 .btn1{
     background-color: #69E6A6;
     font-size: 1rem;
     font-weight: bolder;
-    margin-top: 1rem;
+    margin-top: 4rem;
     color: #0A2640;
     padding: 1rem 2rem;
     border: none;
@@ -238,6 +247,7 @@ li{
 }
 footer{
    flex-direction: column;
+   width:90%;
     margin: 0rem;
 }
 .getfund{
