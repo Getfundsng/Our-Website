@@ -1,0 +1,350 @@
+* {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    padding: 4em;
+    background-color: none;
+    /* display: block; */
+    width: 100%;
+    margin-bottom: 10em;
+    align-items: center;
+}
+
+#logo1 {
+    position: relative;
+    margin-left: 5em;
+    float: left;
+}
+
+.navbar {
+    /* display: flex; */
+    /* margin-left: 40em; */
+    /* justify-content */
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+    /* float: right; */
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color:#0A2640;
+    font-size: 1em;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: right;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0em 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#log-in {
+    border-radius: 3em;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #0A2640;
+    border-width: 0.3em;
+    width: 8em;
+    font-weight: ;
+    font-size: 1em;
+}
+
+.hero {
+    display: flex;
+    /* margin-top: 5em; */
+    padding: 7em;
+}
+
+.hero-image {
+    position: relative;
+    padding-right: 2em;
+    padding-top: 5em;
+}
+
+.hero-text{
+    display: grid;
+    justify-items:flex-end;
+    padding-top: 10em;
+}
+
+#meet {
+    /* height: 2em; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.fund-button {
+    display: flex;
+    margin-top: 2.5em;
+}
+
+#fund {
+    padding: 1.5em;
+    width: 12em;
+    /* height: 2em; */
+    align-items: center;
+    margin-right: 8em;
+    color: white;
+    background-color: #0A2640;
+    border-radius: 4em;
+    align-items: ;
+    font-weight: bolder;
+}
+
+.progress {
+    display: flex;
+    align-items: baseline;
+    justify-items: auto;
+}
+
+.progress p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.story {
+    margin-right: 2em;
+    justify-content: space-evenly;
+    padding: 0em 5em;
+    line-height: 1.5em;
+}
+
+.story p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-stretch: ultra-expanded;
+    font-size: 0.9em;
+}
+
+.next {
+    margin-left: 55em;
+    padding: 5em 3em;
+    display: block;
+}
+
+.next-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Manrope', sans-serif;
+}
+
+.next-two {
+    margin-top: 3em;
+    float: right;
+}
+
+#icon-one {
+    color: #0A2640;
+    font-size: 2em;
+}
+
+#icon-two {
+    color: grey;
+    font-size: 2.5em;
+}
+
+#icon-three {
+    color: #0A2640;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 3em;
+    color: #0A2640;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    align-items: evenly;
+    padding: 5em;
+    margin-top: 10em;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.getfunds {
+    /* display: grid; */
+    width: 26em;
+    /* margin-right: 10em; */
+}
+
+h4 {
+    line-height: 1.5em;
+    width: 19em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 1.2em;
+}
+
+h3 {
+    height: 4em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: #0A2640;
+    font-weight: 800;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.5em;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.fundraise-for {
+    width: 15em;
+    /* margin-right: 10em; */
+    /* padding-left: 15em; */
+}
+
+.resources {
+    width: 15em;
+    /* margin-left: 15em; */
+}
+
+/*
+.navbar {
+    position: absolute;
+    width: 1200px;
+    height: 42px;
+    left: 200px;
+    top: 49.53px;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 40px;
+    gap: 8px;
+
+    position: absolute;
+    left: 88.78%;
+    right: 0.55%;
+    top: 0%;
+    bottom: 4.76%;
+
+/* Dark Blue */
+/* 
+    border: 2px solid #0A2640;
+    border-radius: 24px;
+}
+
+.hero {
+
+}
+
+.hero-image {
+    position: absolute;
+    width: 562px;
+    height: 374.67px;
+    left: 838px;
+    top: 91.53px;
+}
+
+.hero-text {
+    position: absolute;
+    width: 493px;
+    height: 344px;
+    left: 907px;
+    top: 466.2px;
+}
+
+.meet {
+    width: 493px;
+    height: 228px; */
+
+
+/* Inside auto layout */
+/* 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fund-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 56px;
+        gap: 8px;
+    
+        width: 162px;
+        height: 60px; */
+    
+    /* Dark Blue */
+    
+        /* background: #0A2640; */
+    /* Dark Blue */
+/*     
+        border: 2px solid #0A2640;
+        border-radius: 56px; */
+    
+    /* Inside auto layout */
+/*     
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.fund {
+
+}
+
+.progress {
+
+}
+
+.story {
+    position: absolute;
+    width: 1243px;
+    height: 914px;
+    left: 82px;
+    top: 857px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px; */
+/* or 179% */
+
+    /* letter-spacing: 1.56px;
+
+    color: #000000;
+} */
