@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'open sans';
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    width: 100%;
+    padding: 2rem 4rem 1rem;
+    color: #0A2640;  
+}
+.logonav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+.logonav img{
+    width: 433px;
+    height: 51px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 1rem;
+    font-weight: bolder;
+}
+nav ul li a{
+    font-size: 1rem;
+}
+.menu{
+    color: #0A2640;
+    text-decoration: none;
+}
+.login{
+    background-color: white;
+    color: #0A2640;
+    border: 0.2rem solid #0A2640 ;
+    border-radius: 1.5rem;
+    margin-top: 0rem;
+    padding: 0.5rem 1.5rem ;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+.header{
+    text-align: center;
+}
+h4{
+    font-size: 2rem;
+    color: grey;
+}
+.lead{
+    font-size: 4rem;
+}
+
+
+/* MAIN */
+
+.maino{
+    display: flex;
+    margin: 3rem;
+    justify-content: space-evenly;
+}
+.img-1-side{
+    margin-top: 90px;
+}
+.txt-1{
+    font-size: 40;
+    padding-left: 12rem; 
+}
+.txt p{
+    padding-left: 12rem; 
+    color: #0A2640;
+    font-weight: bolder;
+}
+.txt p span{
+    color: grey;
+    font-weight: bold;
+}
+.read-now{
+    margin: 4rem 12rem ;
+    padding: 1rem 3.5rem 1rem;
+    border-radius: 30px;
+    border: 0.2rem solid #0A2640;
+    cursor: pointer;
+    color: #0A2640;
+    background-color: white;
+    font-weight: bold;
+}
+.read-now:hover{
+    background-color: #0A2640;
+    color:white;
+}
+
+
+
+
+/* article */
+
+.art{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.page-1{
+    font-size: 40px;
+}
+.parag{
+    line-height: 50px;
+    /* text-align: center; */
+    font-size: 37px;
+}
+
+
+
+/* comment section */
+
+.sect-comment{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.comm{
+    font-size: 30px;
+
+}
+.sect-comm{
+    display: flex;
+
+}
+
+.text-input{
+    padding-top: 10px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
+
+.arrow{
+    margin-left: 20px;
+}
+
+
+/* last COMMENTS */
+
+.pic-comment{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.para-com{
+    font-size: 40px;
+
+}
+
+.all-pics-comment{
+    display: flex;
+}
+
+.com-pic-1{
+    margin-left: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* For phone screen, didn't get this */
+
+@media screen and (max-width: 1075px){
+    *{
+        box-sizing: border-box;
+    }
+    .maino{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .txt-1{   
+        font-size: 20px;
+    }
+
+    .text-input{
+        padding-right: 200px;
+    }
+    .arrow{
+        display: none;
+    }
+
+    .layers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+    .layers-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .smal-img-1{
+        margin-top: 20px;
+    }
+    .smal-img-2{
+        margin-top: 20px;
+    }
+
+    .sect-btn{
+        text-align: center;
+    }   
+    
+    .all-pics-comment{
+        display: block;
+    }
+    .com-pic-1{
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    *{
+        box-sizing: border-box;
+    }
+    .logonav{
+        flex-direction: column;
+    }
+    .logonav img{
+        width: 400px;
+        height: 51px;
+    }
+    .maino{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-input{
+        padding-right: 80px;
+    }
+    .arrow{
+        display: none;
+    }
+
+    .txt-1{   
+        font-size: 20px;
+    }
+    
+    .layers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .layers-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smal-img-1{
+        margin-top: 20px;
+    }
+    .smal-img-2{
+        margin-top: 20px;
+    }
+
+    .sect-btn{
+        text-align: center;
+    }
+
+    .all-pics-comment{
+        display: block;
+    }
+    .com-pic-1{
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    *{
+        box-sizing: border-box;
+    }
+    .logonav{
+        flex-direction: column;
+    }
+    .logonav img{
+        width: 300px;
+        height: 41px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+
+    .header{
+        text-align: center;
+        padding: 1rem;
+    }
+    h4{
+        font-size: 2rem;
+        color: grey;
+    }
+    .lead{
+        font-size: 3rem;
+        display: flex;
+        width: 100%;
+    }
+    .maino{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-input{
+        padding-right: 20px;
+    }
+    .arrow{
+        display: none;
+    }
+
+    
+    .txt-1{   
+        font-size: 2rem;
+    }
+
+    .latest{
+        font-size: 50;
+    }
+    .layers{
+        flex-direction: column;
+        text-align: center;
+    }
+    .layers-2{
+        text-align: center;    
+        flex-direction: column;
+    }
+
+    .smal-img-1{
+        margin-top: 20px;
+        margin: 4rem auto;
+    }
+    .smal-img-2{
+        margin-top: 20px;
+        margin: 4rem auto;
+    }
+
+    .sect-btn{
+        text-align: center;
+    }
+
+    .all-pics-comment{
+        display: block;
+    }
+    .com-pic-1{
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+}
