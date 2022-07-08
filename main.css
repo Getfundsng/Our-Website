@@ -227,15 +227,21 @@ border-radius: 1.5rem;
     color: white;
     font-weight: bolder;
 }
+.feedback-div{
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
 .feedback{
     background-color: rgb(211, 211, 211);
     margin: 0.5rem 4rem 2rem; 
-    /* width: 90%;  */
+    width: 90%; 
     padding: 4rem 30rem;
     border: none;
     border-radius: 1rem;
 }
-.btn1{
+.btn3{
+    text-decoration: none;
     background-color: #0A2640;
     font-size: 1rem;
     font-weight: bolder;
@@ -246,7 +252,10 @@ border-radius: 1.5rem;
     margin:0rem 30rem;
     display: flex;
     justify-content: center;
-
+}
+.btn3:hover{
+background-color: #69E6A6;
+color: #0A2640;
 }
 .testimonial-section{
     background-color: #0A2640;
@@ -442,7 +451,7 @@ li{
     text-align: left;
 }
 
-@media (min-width: 600px) and (max-width: 900px){
+@media (min-width: 600px) and (max-width: 1010px){
     body{
         max-width: 100%;
     }
@@ -496,16 +505,16 @@ li{
     text-align: center;
     margin: 0rem;
 }
-/* .users2{
+.users2{
     flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    margin: 0rem;
-    padding-top: 0rem;
-} */
+}
 .user-2-text{
     width: 90%;
-    
+    margin: 0rem;
+}
+
+.user-2-text button{
+    margin: 0rem 0rem 2rem;
 }
 .users-2-text h4{
     max-width: 80%;
@@ -562,6 +571,23 @@ li{
     .blog-item div img{
         width: 100%;
     }
+    .feedback-div{
+        width: 100%;
+        margin: 1rem;
+
+    }
+
+    .feedback{
+        width: 90%;
+        margin: 0rem;
+        padding: 3rem 1.5rem;
+    }
+    .btn3{
+    margin: 2rem auto;
+    padding: 1rem 0rem;
+    width: 30%;
+}
+
 .get-in-touch{
     max-width: 95%;
 }
@@ -637,7 +663,8 @@ footer{
     margin: 0rem;
 }
 .yourdreams{
-    width: 100%;
+    width: 90%;
+    font-size: 2em;
     text-align: center;
     place-items: center;
     place-content: center;
@@ -650,7 +677,11 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.section1 div img{
+    width: 100%;
 }
 .users{
     flex-direction: column;
@@ -714,13 +745,18 @@ footer{
     justify-content: center;
     text-align: center;
     margin: 2rem ;
+    padding: 1rem;
 }
 .firstcard{
 width: 100%;
-padding: 0rem;
+padding: 0.2rem;
 margin: 1rem;
+font-size: 1rem;
+line-height: 1.2rem;
 align-items: center;
+justify-content: center;
 }
+
 .imgdiv img{
     max-width: 90%;
 }
@@ -745,17 +781,51 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
-    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
 }
 .blog-item {
+justify-content: center;
 align-items: center;
 padding: 0rem;
 margin: 1rem;
-width: 100%;
+width: 90%;
 }
+.blog-item div img {
+    width: 100%;
+    }
 .blog-item p{
  margin: 0rem;
+}
+
+.loadmore {
+    margin: 1rem auto;
+    text-align: center;
+}
+.loadmore a {
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.feedback-div{
+    width: 100%;
+    padding: 0rem;
+    margin: 0.5rem;
+}
+.feedback{
+    width: 90%;
+    padding: 3rem 1.5rem;
+    margin: 0rem 1rem;
+}
+.btn3{
+    margin: 3rem;
+    padding: 1rem 0.1rem;
+}
+
+.get-in-touch{
+    padding: 1rem;
+    margin: 2rem 1rem;
 }
 
 .get-in-touch p{
@@ -767,9 +837,10 @@ margin: 1rem;
 margin: 1rem;
 /* display: block; */
 padding: 0.5rem;
-width: 100%;
+width: 90%;
+margin: 1rem;
 }
-.get-in-touch span button{
+.get-in-touch span a{
 padding: 0.5rem 2rem;
 }
 footer{
@@ -777,7 +848,10 @@ footer{
     width: 90%;
 }
 .getfund{
-    width: 100%;
+    width: 90%;
+}
+.getfund div span img{
+    width: 30%;
 }
 
 .fundraisefor{
