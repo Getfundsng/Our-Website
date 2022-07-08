@@ -57,7 +57,7 @@ a{
 .fundraise{
     display: flex;
     place-content: center;
-    margin:0rem 3rem 3rem;
+    margin:0rem 2rem 3rem;
 }
 .btnHome{
     background-color: white;
@@ -85,7 +85,7 @@ a{
     border: 1px solid black;
 }
 .text-donate{
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 .btn1{
     background-color: #0A2640;
@@ -100,7 +100,7 @@ a{
 .donation-details{
     background-color: rgb(211, 211, 211);
     width: 50%;
-    margin: 0rem 3rem 6rem;
+    margin: 0rem 2rem 6rem;
     border: 1px solid black;
     border-radius: 1rem;
     padding: 2rem;
@@ -110,7 +110,7 @@ a{
     background-color: rgb(211, 211, 211); 
     margin:2rem 3rem  6rem;
     padding: 2rem;
-    width: 40%;
+    width: 50%;
     display: none;
 
 }
@@ -199,5 +199,108 @@ a{
     line-height: 36px;
     letter-spacing: 0em;
     color: #777777;
+
+}
+
+
+@media (min-width: 300px) and (max-width: 599px){
+    body{
+        max-width: 95%;
+    }
+    header{
+        padding: 1rem;
+    }
+    .logonav{
+        flex-direction: column;
+        width: 100%;
+    }
+    .logonav img{
+        width: 90%;
+        height:41px;
+}
+    .logonav h1{
+        width: 90%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .login{
+        width: 70%;
+        border: 0.2rem solid #0A2640 ;
+        border-radius: 1.5rem;
+        margin: 0rem;
+        padding: 0.5rem 1rem ;
+        font-weight: bolder; 
+    }
+    .fundraise{
+        padding: 0rem;
+        margin:1rem;
+        place-content: center;
+        width: 90%;
+    }
+    .btnHome{
+        padding: 1rem;
+    }
+    .donate{
+        margin: 1rem;
+    }
+    .img-txt{
+        flex-direction: column;
+    }
+    .text-donate{
+        width: 80%;
+        margin: 1rem;
+    }
+    .btn1{
+        margin: 3rem;
+        color: white;
+        padding: 1rem 2rem;
+       
+    }
+    .donate-form{
+        margin:0rem;
+        padding: 1rem;
+        width: 100%;    
+    }
+    .donation-details{
+        width: 100%;
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .card-transfer{
+        width: 100%;
+        padding: 1rem;
+        margin: 0rem;
+    }
+    .bank-transfer{
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .input-form{
+        width: 100%;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+    }
+    .input-form1{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .footerlogo{width: 80%;
+    margin: 0rem;}
+    .fl{
+        width: 100%;
+    }
+    .footertext, .maintext, .subtext{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+
+    .logonav{
+        flex-wrap: wrap;
+    }
 
 }
