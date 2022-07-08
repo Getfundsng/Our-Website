@@ -1,0 +1,174 @@
+/* NAV BAR */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 60px;
+}
+.nav-home{
+    width: 60%;
+}
+/* span{
+    color: rgb(106, 209, 106);
+}
+.nav-home span:hover{
+    color: rgb(13, 163, 13)
+} */
+.nav-link{
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: rgb(13, 163, 13)
+}
+
+
+
+
+
+/* MAIN */
+
+.maino{
+    display: flex;
+    margin: 40px;
+    margin-left: auto;
+}
+.img-1{
+    width: 600px;
+}
+.img-1-side{
+    margin-left: 270px;
+    margin-top: 90px;
+}
+.txt-1{
+    font-size: 40;
+    
+}
+.txt-2{
+    display: flex;
+}
+.txt-2-0{
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+
+/* article */
+
+.art{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.page-1{
+    font-size: 40px;
+}
+.parag{
+    line-height: 50px;
+    /* text-align: center; */
+    font-size: 37px;
+}
+
+
+
+/* comment section */
+
+.sect-comment{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.comm{
+    font-size: 30px;
+
+}
+.sect-comm{
+    display: flex;
+
+}
+
+.text-input{
+    padding-top: 10px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
+
+.arrow{
+    margin-left: 20px;
+}
+
+
+/* last COMMENTS */
+
+.pic-comment{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.para-com{
+    font-size: 40px;
+
+}
+
+.all-pics-comment{
+    display: flex;
+}
+
+.com-pic-1{
+    margin-left: 300px;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    *{
+        box-sizing: border-box;
+    }
+    .maino{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-1{
+        font-size: 20px;
+    }
+    .parag{
+        font-size: 30px;
+    }
+
+    .para-com{
+        text-align: center;
+    }
+    .all-pics-comment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .com-pic-1{
+        margin-left: 0px;
+    }
+
+}
