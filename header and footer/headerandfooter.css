@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
+
+
+body{
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    max-width: 100%;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+/* header and navbar styles starts here */
+header{
+    background-color: white;
+    width: 100%;
+    padding: 2rem 4rem 1rem;
+    color: #0A2640;  
+}
+.logonav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+.logonav img{
+        width: 433px;
+        height: 51px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 1rem;
+    font-weight: bolder;
+}
+nav ul li a{
+    font-size: 1rem;
+}
+.menu{
+    color: #0A2640;
+    text-decoration: none;
+}
+.login{
+    background-color: white;
+    color: #0A2640;
+    border: 0.2rem solid #0A2640 ;
+    border-radius: 1.5rem;
+    margin-top: 0rem;
+    padding: 0.5rem 1.5rem ;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+/* header and navbar styles ends here */
+
+
+/* footer style starts here */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 130px;
+    text-align: left;
+    /* margin: 0 120px; */
+}
+
+.footertext{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 58px;
+    color: #777777;
+    padding-top: 11.79px;
+}
+.maintext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    width: 353.8px;
+}
+.subtext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+.fr_maintxt,.re_maintxt{
+    font-family: 'Open Sans';
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    padding-bottom: 40px;
+}
+.fr_subtxt,.re_subtxt{
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #777777;
+
+}
