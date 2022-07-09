@@ -79,6 +79,7 @@ h4{
 }
 .img-1-side{
     margin-top: 90px;
+    padding: 1rem;
 }
 .txt-1{
     font-size: 40;
@@ -94,7 +95,7 @@ h4{
     font-weight: bold;
 }
 .read-now{
-    margin: 14rem 12rem ;
+    margin: 0rem 12rem ;
     padding: 1rem 3.5rem 1rem;
     border-radius: 30px;
     border: 0.2rem solid #0A2640;
@@ -378,7 +379,9 @@ h4{
     .lead{
         font-size: 3rem;
         display: flex;
-        width: 100%;
+        width: 90%;
+        margin: 0rem;
+        text-align: center;
     }
     .maino{
         display: flex;
@@ -386,24 +389,37 @@ h4{
         justify-content: center;
         align-items: center;
     }
-    /* .img-1 img{
+    .img-1 img{
         width: 100%;
-    } */
+    }
     
     .txt-1{   
         font-size: 2rem;
+        padding: 1rem;
+    }
+    .txt{   
+        padding: 1rem;
+    }
+    .read-now{
+        margin:2rem 1rem 1rem;
     }
 
     .latest{
-        font-size: 50;
+        font-size: 2rem;
     }
     .layers{
         flex-direction: column;
         text-align: center;
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
     }
     .layers-2{
         text-align: center;    
         flex-direction: column;
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
     }
 
     .smal-img-1{
@@ -418,5 +434,24 @@ h4{
     .sect-btn{
         text-align: center;
     }
+    .get-in-touch{
+        width: 100%;
+        margin: 0rem;
+        padding:2rem;
+        
+    }
 
+    .get-in-touch p{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .get-in-touch div span input{
+        width: 100%;
+        padding:1rem 2rem;
+        margin-bottom: 2rem;
+    }
+    .footer{
+        max-width: 90%;
+        text-align: center;
+    }
 }
