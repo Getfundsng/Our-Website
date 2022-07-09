@@ -93,37 +93,22 @@ h4{
     color: grey;
     font-weight: bold;
 }
-.read-now{
-    margin: 4rem 12rem ;
-    padding: 1rem 3.5rem 1rem;
-    border-radius: 30px;
-    border: 0.2rem solid #0A2640;
-    cursor: pointer;
-    color: #0A2640;
-    background-color: white;
-    font-weight: bold;
-}
-.read-now:hover{
-    background-color: #0A2640;
-    color:white;
-}
-
-
-
-
 /* article */
 
 .art{
-    margin-top: 50px;
-    margin-left: 30px;
+   margin: 4rem;
 }
 .page-1{
-    font-size: 40px;
+    font-size: 3rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 }
 .parag{
-    line-height: 50px;
+    line-height: 40px;
     /* text-align: center; */
-    font-size: 37px;
+    font-size: 1.5rem;
 }
 
 
@@ -138,37 +123,48 @@ h4{
 
 .comm{
     font-size: 30px;
-
+    display: flex;
+    justify-content: center;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.page-2{
+    font-size: 2rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
 }
 .sect-comm{
     display: flex;
-
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
 }
 
 .text-input{
-    padding-top: 10px;
-    padding-right: 500px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 1rem 7rem;
+    border: none;
     border-radius: 10px;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(211, 211, 211);
 }
 
-.arrow{
-    margin-left: 20px;
-}
+
 
 
 /* last COMMENTS */
 
 .pic-comment{
-    margin-left: 30px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 3rem;
 }
 .para-com{
     font-size: 40px;
-
+    display: flex;
+    place-content: center;
+    margin: 1rem 1rem 2rem;
 }
 
 .all-pics-comment{
@@ -179,13 +175,6 @@ h4{
     margin-left: 300px;
     
 }
-
-
-
-
-
-
-
 
 
 /* For phone screen, didn't get this */
@@ -350,6 +339,15 @@ h4{
     }
     .arrow{
         display: none;
+    }
+
+    .art{
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .img-1 img{
+        width: 100%;
     }
 
     

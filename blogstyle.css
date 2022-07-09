@@ -94,11 +94,10 @@ h4{
     font-weight: bold;
 }
 .read-now{
-    margin: 4rem 12rem ;
+    margin: 14rem 12rem ;
     padding: 1rem 3.5rem 1rem;
     border-radius: 30px;
     border: 0.2rem solid #0A2640;
-    cursor: pointer;
     color: #0A2640;
     background-color: white;
     font-weight: bold;
@@ -151,8 +150,8 @@ h4{
 }
 
 .btn-1{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     padding: 10px 60px 10px 60px;
     border-radius: 30px;
     cursor: pointer;
@@ -165,6 +164,49 @@ h4{
 .btn-1:hover{
     background-color: #0A2640;
     color:white;
+}
+
+
+.get-in-touch{
+    background-color: #0A2640;
+    padding: 2rem;
+    margin: 1rem 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.get-in-touch p{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 3rem 2rem 4rem;
+}
+.get-in-touch div{
+    /* margin: 3rem 2rem 4rem; */
+    text-align: center;   
+}
+.get-in-touch span input{
+    text-align: left;
+    padding: 1rem 6rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bolder;
+    /* margin: 0rem auto; */
+}
+.get-in-touch span a{
+    text-align: center;
+    background-color: #69E6A6;
+    color: #0A2640;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.get-in-touch span a:hover{
+    background-color: #0A2640;
+    color: white;
+    border: 1px solid white;
 }
 
 .footer{
