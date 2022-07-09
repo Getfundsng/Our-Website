@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Campaign</title>
-    <link rel="stylesheet" href="campaign-preview.css">
+    <link rel="stylesheet" href="create-and-edit-campaign.css">
 </head>
 <body>
 
@@ -21,10 +21,12 @@
                 </ul>
             </nav>
         </div>
+        </header>
 
         <div class="writeyourstory"> 
             <span><img src="images/edit-3.png" alt=""> write your story</span>
-            <span style="float: right;"><img src="images/clipboard.png" alt="">My Story</span>
+
+            <span class="clipboard"><img src="images/clipboard.png" alt="">My Story</span>
         
         </div>
 
@@ -34,8 +36,8 @@
             <div><img src="images/text formatter.png" alt="" style="float: right;"></div>
 
             <label for="coverpicture" class="coverpic-label">
-                <img src="images/set cover picture.png" alt="">
-                Set Cover Picture
+                <img src="images/set cover picture.png" alt=""><span>Set Cover Picture</span>
+                
                 <input id="coverpicture" type="file" class="coverpicture">
             </label>
 
@@ -46,14 +48,14 @@
 
 
             <hr>
-            <textarea class="tellyourstory" placeholder="Tell your story...">
-
+            <textarea class="tellyourstory">Tell your story...
             </textarea>
         </div>
 
         <div class="post">
-            <button> <a class="preview" href="campaign-preview.html">Preview</a></button>
-            <button>Post</button>
+            <a class="preview" href="campaign-preview.html">Preview</a>
+            <a class="preview" href="#">Post</a>
+            
         </div>
 
 

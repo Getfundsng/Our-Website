@@ -22,6 +22,8 @@ header{
     justify-content: space-between;
     font-size: 1.5rem;
     margin: 1rem 2rem;
+    flex-wrap: wrap;
+
 }
 .logonav img{
         width: 433px;
@@ -60,6 +62,7 @@ a{
     width: 100%;
     padding: 2rem 6rem 2rem;
     color: #0A2640;
+    flex-wrap: wrap;
 }
 .btnHome{
     background-color: white;
@@ -123,7 +126,7 @@ place-content: center;
 .fundraiser-category div{
     display: flex;
     place-content: center;
-    margin: 1rem;
+    margin: 0rem;
 }
 .icons{
     display: inline-flex;
@@ -144,54 +147,56 @@ place-content: center;
 /* .icons div p{
     text-align: center;
 } */
-footer{
+.footer{
     display: flex;
-    place-content:space-around;
-    padding: 0rem auto;
-    margin: 0rem 0rem 0rem 5rem;
-    color: #0A2640;
-}
-.getfund{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 130px;
     text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
-}
-.getfund div{
-font-size: 2rem;
-margin-bottom: 2rem;
-font-weight: bolder;
-}
-/* .getfund p{
-    margin-top: 3rem;
-} */
-.fundraisefor{
-    text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
-}
-.fundraisefor div{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
-    }
-.resources{
-    text-align: left;
-    font-size: 1.2rem;
-    margin: 2rem;
-    width: 33%;
-}
-.resources div{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
-    }
-li{
-    list-style: none;
-    text-align: left;
+    /* margin: 0 120px; */
 }
 
+.footertext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 58px;
+    color: #777777;
+    padding-top: 11.79px;
+}
+.maintext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    width: 353.8px;
+}
+.subtext{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+.fr_maintxt,.re_maintxt{
+    font-family: 'Open Sans';
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    padding-bottom: 40px;
+}
+.fr_subtxt,.re_subtxt{
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #777777;
+
+}
 
 @media (min-width: 300px) and (max-width: 599px){
     body{
@@ -206,9 +211,9 @@ li{
         width: 100%;
     }
     .logonav img{
-        width: 90%;
-        height:41px;
-}
+        width: 180px;
+        height: 41px;
+    }
     .logonav h1{
         width: 90%;
     }
@@ -224,51 +229,74 @@ li{
         font-weight: bolder; 
     }
     .browse-fund-raiser{
-        padding: 2rem 2rem;
+        padding: 1rem;
+        display: flex;
+        margin: 0rem;
+        width: 80%;
+    }
+    .browse-fund-raiser h3{
+        margin: 1rem;
+        padding: 0rem;
+    }
+    .browse-fund-raiser p{
+        margin:1rem;
+        padding: 0rem;
     }
     
 .donations{
     padding:2rem;
-    flex-direction: column;
     margin: 0rem;
     width:100%;
 }
 .donation-cards{
-    width:100%;
-    margin: 1rem;
-    background-color: rgb(211, 211, 211);
-    text-align: left;
-    padding: 1rem;
+    width:80%;
 }
 .donation-cards div img{
     width: 100%;
 }
 .fundraiser-category{
     padding: 1rem;
+    width: 80%;
+}
+.fundraiser-category div h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .icons div{
     margin: 1rem;
 }
-footer{
-   flex-direction: column;
-   width:90%;
+.footer{
+    margin-top: 3rem;
+    padding: 0rem;
+}
+.footerlogo{
+    width: 80%;
     margin: 0rem;
+    padding: 0rem;
 }
-.getfund{
+.footertext{
+    width: 50%;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+.fl{
+    width: 80%;
+}
+.footertext, .maintext, .subtext{
     width: 100%;
 }
-.getfund p{
-    width: 100%;
 }
-.fundraisefor{
-width: 100%;
-}
-.resources{
-width: 100%;
-}
-li{
-    list-style-type: circle;
-}
+@media (min-width: 600px) and (max-width: 1000px){
+
+    .logonav{
+        flex-wrap: wrap;
+    }
 
 }
 
