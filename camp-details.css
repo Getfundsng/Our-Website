@@ -99,6 +99,7 @@ h5 {
 .fund-button {
     display: flex;
     margin-top: 2.5em;
+    border: none;
 }
 
 #fund {

@@ -185,14 +185,18 @@ border-radius: 1.5rem;
     margin: 3rem;
     width: 40%;
 }
-.users div button{
+
+.usertext div{
     margin-top: 6rem;
+}
+.users div a{
     padding: 1rem 3rem;
     background-color: #0A2640;
     border-radius: 1.5rem;
     border: none;
     color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 .users2{
     display: flex;
@@ -207,6 +211,10 @@ border-radius: 1.5rem;
     margin: 3rem;
     width: 40%;
 }
+.user-2-text div{
+    margin-top: 6rem;
+
+}
 .users2 div h4{
     text-align: left;
     font-size: 1.5rem;
@@ -218,14 +226,14 @@ border-radius: 1.5rem;
     line-height: 2rem;
     font-size: 1.5rem;
 }
-.users2 div button{
-    margin-top: 6rem;
+.users2 div a{
     padding: 1rem 3rem;
     background-color: #0A2640;
     border-radius: 1.5rem;
     border: none;
     color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 .feedback-div{
     width: 100%;
@@ -513,7 +521,7 @@ li{
     margin: 0rem;
 }
 
-.user-2-text button{
+.user-2-text a{
     margin: 0rem 0rem 2rem;
 }
 .users-2-text h4{
@@ -710,7 +718,7 @@ footer{
     margin: 0rem;
     text-align: center;
 }
-.users div button{
+.users div a{
     margin-top: 1rem;
 }
 .users2{
