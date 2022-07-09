@@ -66,7 +66,9 @@ h4{
     color: grey;
 }
 .lead{
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 0rem 4rem;
+    padding: 0rem 2rem;
 }
 
 
@@ -298,34 +300,36 @@ h4{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
     *{
         box-sizing: border-box;
     }
+    .header{
+        text-align: center;
+        padding: 1rem;
+    }
     .logonav{
         flex-direction: column;
+        margin: 1rem;
     }
     .logonav img{
-        width: 300px;
+        width: 180px;
         height: 41px;
     }
     nav ul{
         flex-direction: column;
     }
 
-    .header{
-        text-align: center;
-        padding: 1rem;
-    }
     h4{
         font-size: 2rem;
         color: grey;
     }
     .lead{
-        font-size: 3rem;
+        font-size: 2rem;
         display: flex;
         width: 100%;
+        text-align: center;
     }
     .maino{
         display: flex;
@@ -333,26 +337,37 @@ h4{
         justify-content: center;
         align-items: center;
     }
+    .img-1 img{
+        width: 100%;
+    }
+    .img-1-side{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .txt p{   
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .txt-1{  
+        padding: 0rem;
+        margin: 0rem; 
+        font-size: 2rem;
+    }
+    .sect-comm{
+        padding: 1rem;
+    }
     
     .text-input{
-        padding-right: 20px;
+        margin: 1rem;
+        padding: 1rem 3rem;
     }
     .arrow{
-        display: none;
+        display: flex;
     }
 
     .art{
         margin: 1rem;
         text-align: center;
-    }
-
-    .img-1 img{
-        width: 100%;
-    }
-
-    
-    .txt-1{   
-        font-size: 2rem;
     }
 
     .latest{
@@ -366,16 +381,6 @@ h4{
         text-align: center;    
         flex-direction: column;
     }
-
-    .smal-img-1{
-        margin-top: 20px;
-        margin: 4rem auto;
-    }
-    .smal-img-2{
-        margin-top: 20px;
-        margin: 4rem auto;
-    }
-
     .sect-btn{
         text-align: center;
     }

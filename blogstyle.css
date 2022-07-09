@@ -66,7 +66,9 @@ h4{
     color: grey;
 }
 .lead{
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 0rem 4rem;
+    padding: 0rem 2rem;
 }
 
 
@@ -352,35 +354,34 @@ h4{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
     *{
         box-sizing: border-box;
     }
+    .header{
+        text-align: center;
+        padding: 1rem;
+    }
     .logonav{
         flex-direction: column;
+        margin: 1rem;
     }
     .logonav img{
-        width: 300px;
+        width: 180px;
         height: 41px;
     }
     nav ul{
         flex-direction: column;
-    }
-
-    .header{
-        text-align: center;
-        padding: 1rem;
     }
     h4{
         font-size: 2rem;
         color: grey;
     }
     .lead{
-        font-size: 3rem;
+        font-size: 2rem;
         display: flex;
-        width: 90%;
-        margin: 0rem;
+        width: 100%;
         text-align: center;
     }
     .maino{
@@ -395,17 +396,27 @@ h4{
     
     .txt-1{   
         font-size: 2rem;
-        padding: 1rem;
+        padding: 0rem;
+        margin: 0rem; 
     }
-    .txt{   
-        padding: 1rem;
+    .img-1-side{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    
+    .txt p{   
+        padding: 0rem;
+        margin: 0rem;
     }
     .read-now{
         margin:2rem 1rem 1rem;
+        padding:0.8rem 1.2rem ;
     }
 
     .latest{
         font-size: 2rem;
+        padding: 1rem;
+        margin: 1rem;
     }
     .layers{
         flex-direction: column;
@@ -414,6 +425,10 @@ h4{
         margin: 0rem;
         padding: 0rem;
     }
+    .smal-img-1 div img{
+        width: 90%;
+        margin: 1rem;
+    }
     .layers-2{
         text-align: center;    
         flex-direction: column;
@@ -421,28 +436,23 @@ h4{
         margin: 0rem;
         padding: 0rem;
     }
-
-    .smal-img-1{
-        margin-top: 20px;
-        margin: 4rem auto;
+    .smal-img-2 div img{
+        width: 90%;
+        margin: 1rem;
     }
-    .smal-img-2{
-        margin-top: 20px;
-        margin: 4rem auto;
-    }
-
     .sect-btn{
         text-align: center;
     }
     .get-in-touch{
-        width: 100%;
-        margin: 0rem;
+        width: 90%;
+        margin: 1rem;
         padding:2rem;
         
     }
 
     .get-in-touch p{
         width: 100%;
+        margin: 0rem;
         font-size: 2rem;
     }
     .get-in-touch div span input{
@@ -451,7 +461,37 @@ h4{
         margin-bottom: 2rem;
     }
     .footer{
-        max-width: 90%;
-        text-align: center;
+        margin-top: 3rem;
+    }
+    .footerlogo{
+        width: 80%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .footertext{
+        width: 100%;
+        font-size: 1rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .fl{
+        width: 100%;
+    }
+    .footertext, .maintext, .subtext{
+        width: 100%;
+    }
+}
+@media screen and(max-width:612px) {
+    .get-in-touch div span input{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .get-in-touch div span a{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .read-now{
+        margin: 0rem ;
+        padding: 0rem;
     }
 }
