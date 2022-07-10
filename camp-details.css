@@ -106,6 +106,7 @@ a{
 
 .progress {
     display: flex;
+    place-content: center;
 }
 .progress p {
     font-family: 'Open Sans', sans-serif;
@@ -140,7 +141,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-stretch: ultra-expanded;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .next {
@@ -148,7 +149,6 @@ a{
     padding: 5em 3em;
     display: block;
 }
-
 .next-one {
     display: flex;
     justify-content: space-between;
@@ -156,7 +156,6 @@ a{
     flex-wrap: wrap;
     font-family: 'Manrope', sans-serif;
 }
-
 .next-two {
     margin-top: 3em;
     float: right;
@@ -238,115 +237,142 @@ ul {
     /* margin-left: 15em; */
 }
 
-/*
-.navbar {
-    position: absolute;
-    width: 1200px;
-    height: 42px;
-    left: 200px;
-    top: 49.53px;
-}
+@media (min-width: 300px) and (max-width: 850px){
 
-.log-in {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 40px;
-    gap: 8px;
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    header{
+        padding: 1rem;
+    }
+    .logonav{
+        flex-direction: column;
+        width: 100%;
+    }
+    .logonav img{
+        width: 180px;
+        height: 41px;
+    }
+    .logonav h1{
+        width: 90%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .login{
+        width: 70%;
+        border: 0.2rem solid #0A2640 ;
+        border-radius: 1.5rem;
+        margin: 0rem;
+        padding: 0.5rem 1rem ;
+        font-weight: bolder; 
+    }
+    .hero-image {
+        margin: 1rem;
+     }
+     .hero-image img{
+        width: 100%;
+        padding: 1rem;
+     }
 
-    position: absolute;
-    left: 88.78%;
-    right: 0.55%;
-    top: 0%;
-    bottom: 4.76%;
-
-/* Dark Blue */
-/* 
-    border: 2px solid #0A2640;
-    border-radius: 24px;
-}
-
-.hero {
-
-}
-
-.hero-image {
-    position: absolute;
-    width: 562px;
-    height: 374.67px;
-    left: 838px;
-    top: 91.53px;
-}
-
-.hero-text {
-    position: absolute;
-    width: 493px;
-    height: 344px;
-    left: 907px;
-    top: 466.2px;
-}
-
-.meet {
-    width: 493px;
-    height: 228px; */
-
-
-/* Inside auto layout */
-/* 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.fund-button {
+     .hero-text{
+        text-align: center;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .hero-text h1 {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .hero-text h5 {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .fund-button {
+        margin: 1rem;
+        flex-direction: column;
+        padding:0rem 1rem;
+    }
+    #fund {
+        margin: 1rem 0.5rem;
+        padding: 1em 2rem;
+    }
+    .progress-with-text{
+        margin: 0rem 1rem;
+        padding:0rem 1rem;
+    }
+    .next {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .next-one {
+        margin: 0rem;
+        padding: 0rem;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 16px 56px;
-        gap: 8px;
-    
-        width: 162px;
-        height: 60px; */
-    
-    /* Dark Blue */
-    
-        /* background: #0A2640; */
-    /* Dark Blue */
-/*     
-        border: 2px solid #0A2640;
-        border-radius: 56px; */
-    
-    /* Inside auto layout */
-/*     
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        place-content: center;
+    }
+    .next-one h2 {
+        margin: 0rem;
+        padding: 0rem;
+        font-size: 1rem;
+    }
+    #icon-one {
+        margin: 0rem;
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+    .next-two {
+        margin: 1rem;
+        padding: 1rem;
+        display: flex;
+        place-content: center;
+        float: none;
+    }
+    #icon-two {
+        margin: 0rem;
+        padding: 0rem;
+        display: flex;
+        place-content: center;
+        font-size: 1.5rem;
+    }
+    #icon-three {
+        margin: 0rem;
+        padding: 0rem;
+        display: flex;
+        place-content: center;
+        font-size: 1.5rem;
+    }
+    .story {
+        margin: 0rem;;
+        padding: 1rem;
+        line-height: 1.5em;
+    }
+    .story p{
+        margin: 0rem;;
+        padding: 1rem;
+    }
+    footer {
+        width: 90%;
+        padding: 1rem;
+
+    }
+    .logo-two img{
+        width: 100%;
+    }
+    .getfunds {
+        width: 100%;
+    }
+    .getfunds h4 {
+        width: 100%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .fundraise-for {
+        width: 100%;
 }
-
-.fund {
-
 }
-
-.progress {
-
-}
-
-.story {
-    position: absolute;
-    width: 1243px;
-    height: 914px;
-    left: 82px;
-    top: 857px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px; */
-/* or 179% */
-
-    /* letter-spacing: 1.56px;
-
-    color: #000000;
-} */
