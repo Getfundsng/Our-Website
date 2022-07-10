@@ -101,7 +101,7 @@ a{
     width: calc(1/3*90%);
     margin: 1rem;
     background-color: rgb(211, 211, 211);
-    text-align: left;
+    text-align: center;
     padding: 1rem;
 }
 .donation-cards p{
@@ -156,46 +156,53 @@ place-content: center;
     /* margin: 0 120px; */
 }
 
-.footertext{
+footer{
     display: flex;
+    justify-content:center;
+    padding: 0rem auto;
+    margin: 0rem;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 58px;
-    color: #777777;
-    padding-top: 11.79px;
+    
 }
-.maintext{
-    font-family: 'Open Sans';
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0em;
-    width: 353.8px;
+.getfund{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 1rem;
+    width: 33%;
 }
-.subtext{
-    font-family: 'Open Sans';
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0em;
+.getfund div{
+font-size: 2rem;
+margin-bottom: 2rem;
+font-weight: bolder;
 }
-.fr_maintxt,.re_maintxt{
-    font-family: 'Open Sans';
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 49px;
-    letter-spacing: 0em;
-    padding-bottom: 40px;
+.fundraisefor{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 33%;
 }
-.fr_subtxt,.re_subtxt{
-    list-style-type: none;
-    font-family: 'Open Sans';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    color: #777777;
-
+.fundraisefor div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+.resources{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 33%;
+}
+.resources div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+li{
+    list-style: none;
+    text-align: left;
 }
 
 @media (min-width: 300px) and (max-width: 599px){
@@ -232,7 +239,7 @@ place-content: center;
         padding: 1rem;
         display: flex;
         margin: 0rem;
-        width: 80%;
+        width: 100%;
     }
     .browse-fund-raiser h3{
         margin: 1rem;
@@ -249,14 +256,14 @@ place-content: center;
     width:100%;
 }
 .donation-cards{
-    width:80%;
+    width:100%;
 }
 .donation-cards div img{
     width: 100%;
 }
 .fundraiser-category{
     padding: 1rem;
-    width: 80%;
+    width: 100%;
 }
 .fundraiser-category div h2{
     font-size: 1.5rem;
@@ -271,32 +278,79 @@ place-content: center;
     margin: 1rem;
 }
 .footer{
-    margin-top: 3rem;
+    margin: 3rem 1rem 0rem;
     padding: 0rem;
-}
-.footerlogo{
-    width: 80%;
-    margin: 0rem;
-    padding: 0rem;
-}
-.footertext{
-    width: 50%;
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 0rem;
-}
-.fl{
-    width: 80%;
-}
-.footertext, .maintext, .subtext{
+    flex-direction: column;
     width: 100%;
 }
+.getfund{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 1rem;
+    width: 100%;
+}
+.fundraisefor{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 1rem;
+    width: 100%;
+}
+.resources{
+    text-align: left;
+    margin: 0rem;
+    padding: 1rem;
+    width: 100%;
+}
+
 }
 @media (min-width: 600px) and (max-width: 1000px){
 
     .logonav{
         flex-wrap: wrap;
     }
-
+    nav ul li{
+        margin: 0.7rem;
+    }
+    .login{
+        margin-top: 0rem;
+        padding: 0.5rem 1rem ;
+    }
+    
+    .donations{
+        padding:2rem;
+        margin: 0rem;
+        width:100%;
+    }
+    .donation-cards{
+        width:100%;
+    }
+    .footer{
+        margin: 3rem 1rem 0rem;
+        padding: 0rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .getfund{
+        text-align: left;
+        font-size: 1.2rem;
+        margin: 0rem;
+        padding: 1rem;
+        width: 100%;
+    }
+    .fundraisefor{
+        text-align: left;
+        font-size: 1.2rem;
+        margin: 0rem;
+        padding: 1rem;
+        width: 100%;
+    }
+    .resources{
+        text-align: left;
+        margin: 0rem;
+        padding: 1rem;
+        width: 100%;
+    }
 }
 
