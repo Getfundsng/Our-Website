@@ -1,18 +1,11 @@
 * {
-    background-color: white;
-    margin: 0%;
-    padding: 0%;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
 }
 body{
     font-family: 'open sans';
     max-width: 100%;
-}
-*{
-    margin: 0;
-    max-width: 100%;
-    /* padding: 0; */
-    box-sizing: border-box;
 }
 header{
     background-color: white;
@@ -59,78 +52,90 @@ a{
     text-decoration: none;
 }
 
-.hero {
-    display: flex;
-    /* margin-top: 5em; */
-    padding: 7em;
-}
+/* .hero {
+    padding: 1rem;
+} */
 
 .hero-image {
-    position: relative;
-    padding-right: 2em;
-    padding-top: 5em;
+   margin-left: 58%;
 }
 
 .hero-text{
-    display: grid;
-    justify-items:flex-end;
-    padding-top: 10em;
-}
-
-#meet {
-    /* height: 2em; */
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
+    text-align: center;
+    margin-left: 62%;
+    padding: 0rem 0rem 1rem 0rem;
+} 
+.hero-text h1 {
+    padding: 1rem auto;
     height: 1.5em;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.2em;
     font-weight: 400;
+    text-align: left;
 }
-
-h5 {
+.hero-text h5 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
     font-weight: 400;
     font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 0.1rem;
 }
 
 .fund-button {
     display: flex;
-    margin-top: 2.5em;
+    justify-content: center;
+    margin-top: 1rem;
     border: none;
-}
+    margin-left: 60%;
 
+}
 #fund {
-    padding: 1.5em;
-    width: 12em;
-    /* height: 2em; */
+    margin: 1rem 0.5rem;
+    padding: 1em 2rem;
     align-items: center;
-    margin-right: 8em;
     color: white;
     background-color: #0A2640;
     border-radius: 4em;
     font-weight: bolder;
 }
+.progress-with-text{
+    margin: 0rem 1rem;
+    padding:0rem 2rem;
+}
 
 .progress {
     display: flex;
-    align-items: baseline;
-    justify-items: auto;
 }
-
 .progress p {
     font-family: 'Open Sans', sans-serif;
 }
-
+.green-gray{
+   display: flex;
+   place-content: center;
+   place-items: center;
+   margin: 1rem;
+   padding: 0rem 0rem 0rem 0rem;
+   height: 0.5rem;
+   width: 100%;
+}
+.green{
+    background-color: green;
+    margin: 0.2rem;
+    height: 100%;
+}
+.gray{
+    background-color: grey;
+    margin: 0.2rem;
+    height: 100%;
+}
 .story {
+    margin-top: 1rem;
     margin-right: 2em;
     justify-content: space-evenly;
     padding: 0em 5em;
     line-height: 1.5em;
 }
-
 .story p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
