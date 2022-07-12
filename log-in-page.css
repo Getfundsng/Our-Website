@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    color: #333333;
+    font-family: Open Sans;
+    display: flex;
+}
+
+.bg-image {
+    height: 627px;
+    width: 40%;
+    background: #0A2640;
+}
+
+.img-container {
+    width: 80%;
+    height: 115px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+}
+
+.img-1 {
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.form {
+    height: 627px;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+form {
+    width: 50%;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+}
+
+.img-2 {
+    display: none;
+}
+
+.first-p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    /* font-size: 28px; */
+    line-height: 1;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 2.3;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    border: 1.44px solid #0A2640;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+button {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    width: 370px;
+    height: 45px;
+    margin-top: 40px;
+    background: #1C3D5B;
+    color: #FFFFFF;
+    border-radius: 8.62428px;
+    border: none;
+    cursor: pointer;
+}
+
+.second-p {
+    width: 100%;
+    font-family: 'Mulish';
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+
+.third-p {
+    width: 100%;
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 95px;
+}
+
+a {
+    color: #625BF7;
+    text-decoration: none;
+}
+
+@media (max-width: 375px) {
+
+    body {
+        text-align: center;
+        display: unset;
+    }
+
+    .bg-image {
+        display: none;
+    }
+
+    .form {
+        height: unset;
+        width: unset;
+    }
+
+    form {
+        width: unset;
+        position: unset;
+        margin: 30px auto;
+    }
+
+    .img-2 {
+        display: unset;
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    .first-p {
+        /* margin-top: 20px; */
+        line-height: unset;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: unset;
+    }
+
+    li p {
+        font-size: 18px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    label {
+        padding-left: 12%;
+    }
+
+    input {
+        width: 70%;
+        height: 35px;
+    }
+
+    button {
+        width: 75%;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    .second-p {
+        font-size: 15px;
+        margin-left: unset;
+        margin-bottom: 50px;
+    }
+
+    .third-p {
+        font-size: 15px;
+        margin-left: unset;
+    }
+
+}
