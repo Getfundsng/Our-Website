@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #2D3748;
+    font-family: Open Sans;
+    display: flex;
+}
+
+.bg-image {
+    height: 627px;
+    width: 40%;
+    background: #0A2640;
+}
+
+.img-container {
+    width: 80%;
+    background-image: url("Sign up image/rectangle 1314.png");
+    border-radius: 24px;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+}
+
+.img-1 {
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.form {
+    height: 627px;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+form {
+    width: 460px;
+    margin: 15px auto;
+}
+
+.img-2 {
+    display: none;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.5em;
+    font-weight: 150;
+    color: #1D1D1D;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #007AFF;
+    text-decoration: none;
+}
+
+/* .first-a {
+    font-size: 0.8em;
+    line-height: 2;
+    margin-left: 22rem;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.li-2 {
+    margin-left: 15px;
+}
+
+p {
+    font-size: 14px;
+}
+
+label {
+    line-height: 2;
+}
+
+p+input {
+    height: 35px;
+    width: 16.5em;
+    padding-left: 10px;
+    border-radius: 0.5rem;
+    border: 1px solid #0A2640;
+    background: transparent;
+
+}
+
+button {
+    font-size: 11.5px;
+    width: 13.7rem;
+    height: 37px;
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffffff;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.btn-1 {
+    background: #65E4A3;
+    margin-right: 13px;
+}
+
+.btn-2 {
+    background: #0A2640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn-2 {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.p-btn-2 {
+    display: inline;
+    font-size: 11.5px;
+}
+
+.log-in {
+    font-size: 1em;
+    margin-left: 8em;
+}
+
+@media(max-width: 375px) {
+    body {
+        text-align: center;
+        display: unset;
+    }
+
+    .bg-image {
+        display: none;
+    }
+
+    .form {
+        width: unset;
+        height: unset;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    form {
+        width: unset;
+    }
+
+    .img-2 {
+        display: unset;
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        display: unset;
+    }
+
+    li p {
+        text-align: left;
+    }
+
+    .label-pad {
+        padding-left: 18%;
+    }
+
+    p+input {
+        width: 18em;
+    }
+
+    label {
+        font-size: 13px;
+        line-height: 2.4;
+    }
+
+    .li-2 {
+        margin-left: unset;
+    }
+
+    .checkbox-1 {
+        padding-right: 132px;
+    }
+
+    .checkbox-2 {
+        padding-left: 26px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        display: unset;
+    }
+
+    .btn-1 {
+        margin-bottom: 30px;
+        margin-right: unset;
+    }
+
+    .btn-2 {
+        margin-left: 77px;
+        margin-bottom: 30px;
+    }
+
+    .log-in {
+        margin-left: unset;
+    }
+
+}
