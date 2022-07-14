@@ -103,6 +103,7 @@ button {
     border-radius: 0.5rem;
     border: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .btn {
