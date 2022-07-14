@@ -115,6 +115,15 @@ z-index: 1;
     margin: 0px 2px 0px 2px;
     padding: 0px 5px;
 }
+.box-one img{
+    margin: 1rem;
+}
+.box-two img{
+    margin: 1rem;
+}
+.box-three img{
+    margin: 1rem;
+}
 .browse-fund-raiser{
     background-color: rgb(211, 211, 211);
     width: 100%;

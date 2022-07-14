@@ -112,6 +112,15 @@ z-index: 1;
     margin: 0px 2px 0px 2px;
     padding: 0px 5px;
 }
+.box-one img{
+    margin: 1rem;
+}
+.box-two img{
+    margin: 1rem;
+}
+.box-three img{
+    margin: 1rem;
+}
 
 /* HEADER */
 
@@ -482,6 +491,8 @@ h4{
         font-size: 2rem;
         display: flex;
         width: 100%;
+        margin: 1rem;
+        padding: 1rem;
         text-align: center;
     }
 

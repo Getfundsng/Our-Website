@@ -32,11 +32,27 @@ nav ul li{
     list-style-type: none;
     margin: 1rem;
     font-weight: bolder;
-
+}
+nav ul li a{
+    font-size: 1rem;
 }
 .menu{
     color: white;
     text-decoration: none;
+}
+.menu-home{
+    color: white;
+    text-decoration: none;
+}
+.menu-home::after{
+    content: '';
+    position: absolute;
+    right: 560px;
+    top: 95px;
+    margin: auto;
+    border-bottom: 4px solid white;
+    border-radius: 5px;
+    width: 19px;
 }
 
 .login{
@@ -106,6 +122,15 @@ z-index: 1;
 .box{
     margin: 0px 2px 0px 2px;
     padding: 0px 5px;
+}
+.box-one img{
+    margin: 1rem;
+}
+.box-two img{
+    margin: 1rem;
+}
+.box-three img{
+    margin: 1rem;
 }
 
 .fund-raising-section-and-picture{
@@ -530,6 +555,10 @@ li{
     nav ul{
         display: flex;
         flex-direction: column;
+    }
+    .menu-home::after{
+        left: 140px;
+        top: 158px;
     }
     .main-container{
         background-color: white; 
