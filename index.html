@@ -13,13 +13,30 @@
     <header>
         <div class="logonav">
             <h1> <span><img src="images/Union.png" alt=""></span> GetFunds</h1>
+            
+                <span class="menu-icon" id="menu" >menus</span>
             <nav>
-                <ul>
-                    <li><a class="menu" href="get.html">How It Works</a></li>
+                <ul id="ul">
+                    <li><a class="menu" href="#" onclick="show()">How It Works</a></li>
                     <li><a class="menu" href="about.html">About</a></li>
                     <li><a class="login" href="login.html">Log In</a></li>
                 </ul>
             </nav>
+        </div>
+
+        <div class="main-container" id="modal">
+            <div>
+                <p class="p-two"> Your dreams can come alive with <br> GETFUNDS</p>
+            </div>
+
+            <p class="close-modal" id="close-modal" >&times;</p>
+
+            <div class="box-container">
+                <div class=" box-one"> <img src="Pictures/Service.png" alt="A picture of service 1"></div>
+                <div class=" box-two"> <img src="Pictures/Service (1).png" alt="A picture of service 2"></div>
+                <div class=" box-three"> <img src="Pictures/Service (2).png" alt="A picture of service 3"></div>
+            </div>
+            
         </div>
         <div class="fund-raising-section-and-picture">
             <div class="fund-raising-section-text">
@@ -244,10 +261,7 @@
             </ul>
         </div>
     </footer>
-
-
-
-
+    <script src="main.js"></script>
 
 </body>
 
