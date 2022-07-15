@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,13 +12,13 @@ body {
 }
 
 .bg-image {
-    height: 627px;
+    height: 100vh;
     width: 40%;
     background: #0A2640;
 }
 
 .img-container {
-    width: 80%;
+    width: 60%;
     background-image: url("Verification code Images/Rectangle 1314.png");
     border-radius: 24px;
     position: relative;
@@ -145,7 +146,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 825px) {
 
     body {
         text-align: center;

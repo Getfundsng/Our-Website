@@ -40,9 +40,19 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+.menu:hover{
+    color: #0A2640;
+    background-color: white;
+    border-radius: 1.2rem;
+}
 .menu-home{
     color: white;
     text-decoration: none;
+}
+.menu-home:hover{
+    color: #0A2640;
+    background-color: white;
+    border-radius: 1.2rem;
 }
 .menu-home::after{
     content: '';
@@ -56,14 +66,18 @@ nav ul li a{
 }
 
 .login{
-    background-color: white;
-    color: #0A2640;
-    border: none;
+    /* background-color: white; */
+    color: white;
+    border: 0.15rem solid white;
     margin-top: 0rem;
     border-radius: 1.2rem;
     padding: 0.5rem 1.5rem ;
     font-weight: bolder;
     text-decoration: none;
+}
+.login:hover{
+    color: #0A2640;
+    background-color: white;
 }
 @keyframes animatetop{
     from{
@@ -173,7 +187,7 @@ border-radius: 1.5rem;
     background-color: #0A2640;
     border: 2px solid white;
     color: white;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     text-decoration: none;
 }
 .btn2{
@@ -226,18 +240,6 @@ border-radius: 1.5rem;
     display: flex;
     justify-content: space-around;
     padding-top: 1rem;
-}
-.section1 div h3 {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.7rem;
-    text-align: left;
-}
-.section1 div p{
-    text-align: center; 
-    margin-top: 1rem;
-    font-size: 1.4rem;
-    text-align: left;
 }
 .stories{
     color: grey;
@@ -544,6 +546,11 @@ li{
     list-style: none;
     text-align: left;
 }
+@media(max-width:1081px){
+    nav ul li{
+        margin: 0.5rem;
+    }
+}
 
 @media (min-width: 600px) and (max-width: 1010px){
     body{
@@ -751,6 +758,9 @@ footer{
     nav ul{
         display: none;
         flex-direction: column;
+    }
+    .menu-home::after{
+        display: none;
     }
     #menu{
         display: block;
