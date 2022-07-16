@@ -119,28 +119,31 @@ z-index: 1;
     margin: 1rem;
 }
 
-/* .hero {
+.hero {
     padding: 1rem;
-} */
-
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
 .hero-image {
-   margin-left: 58%;
+   margin: 1rem;
 }
 
 .hero-text{
     text-align: center;
-    margin-left: 62%;
-    padding: 0rem 0rem 1rem 0rem;
+    margin: 1rem;
+    padding: 1rem;
 } 
 .hero-text h1 {
-    padding: 1rem auto;
-    height: 1.5em;
+    padding: 1rem;
+    
     font-family: 'Open Sans', sans-serif;
     font-size: 2.2em;
     font-weight: 400;
     text-align: left;
 }
 .hero-text h5 {
+    padding: 1rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
     font-weight: 400;
@@ -150,16 +153,13 @@ z-index: 1;
 }
 
 .fund-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
     border: none;
-    margin-left: 60%;
+    margin: 1rem;
 
 }
 #fund {
-    margin: 1rem 0.5rem;
-    padding: 1em 2rem;
+    margin: 2rem 10rem 2rem 0rem;
+    padding: 1rem 3rem;
     align-items: center;
     color: white;
     background-color: #0A2640;
@@ -167,8 +167,8 @@ z-index: 1;
     font-weight: bolder;
 }
 .progress-with-text{
-    margin: 0rem 1rem;
-    padding:0rem 2rem;
+    margin: 1rem;
+    padding:2rem;
 }
 
 .progress {
@@ -184,18 +184,20 @@ z-index: 1;
    place-items: center;
    margin: 1rem;
    padding: 0rem 0rem 0rem 0rem;
-   height: 0.5rem;
+   height: 1rem;
    width: 100%;
 }
 .green{
     background-color: green;
     margin: 0.2rem;
     height: 100%;
+    width: 2rem;
 }
 .gray{
     background-color: grey;
     margin: 0.2rem;
     height: 100%;
+    width: 2rem;
 }
 .story {
     margin-top: 1rem;
@@ -304,7 +306,7 @@ ul {
     /* margin-left: 15em; */
 }
 
-@media (min-width: 300px) and (max-width: 850px){
+@media (min-width: 300px) and (max-width: 600px){
 
     body{
         max-width: 100%;
@@ -326,6 +328,9 @@ ul {
     }
     nav ul{
         flex-direction: column;
+    }
+    nav ul li{
+        margin: 1rem;
     }
     .login{
         width: 70%;
@@ -377,11 +382,17 @@ ul {
         .box-three img{
             width: 100%;
         }
+        .hero {
+           margin: 0rem;
+           padding: 0rem;
+           /* width: 100%; */
+           flex-direction: column;
+        }
     .hero-image {
         margin: 1rem;
      }
      .hero-image img{
-        width: 100%;
+        width: 90%;
         padding: 1rem;
      }
 
@@ -389,32 +400,46 @@ ul {
         text-align: center;
         margin: 0rem;
         padding: 0rem;
+        width: 90%;
     }
     .hero-text h1 {
-        margin: 1rem;
+        margin: 0rem;
         padding: 1rem;
         font-size: 2rem;
         width: 100%;
     }
     .hero-text h5 {
-        margin: 1rem;
+        margin: 0rem;
         padding: 1rem;
         font-size: 1rem;
         width: 100%;
     }
     .fund-button {
         margin: 1rem;
-        flex-direction: column;
-        padding:0rem 1rem;
+        padding:1rem;
+        width: 100%;
     }
     #fund {
-        margin: 1rem 0.5rem;
-        padding: 1em 2rem;
+        margin-top: 2rem;
+        padding: 1rem;
     }
     .progress-with-text{
-        margin: 0rem 1rem;
+        margin: 1rem 1rem;
         padding:0rem 1rem;
     }
+    /* .progress {
+        margin: 1rem 1rem;
+        padding: 1rem;
+    } */
+    .progress p {
+        margin: 1rem 1rem;
+        /* padding: 1rem 1rem; */
+    }
+    .green-gray{
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+     }
     .next {
         margin: 0rem;
         padding: 0rem;
