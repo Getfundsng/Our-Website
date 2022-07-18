@@ -124,6 +124,10 @@ z-index: 1;
 .box-three img{
     margin: 1rem;
 }
+.requirements{
+    margin: 1em;
+    padding: 1em;
+}
 .writeyourstory{
 border: 1px solid black;
 border-radius: 1rem;

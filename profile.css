@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap');
+
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+    max-width: 100%;
+}
+header{
+    background-color: white;
+    width: 100%;
+    padding: 2rem 4rem 1rem;
+    color: #0A2640;  
+}
+.logonav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+.logonav img{
+        width: 433px;
+        height: 51px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 1rem;
+    font-weight: bolder;
+}
+nav ul li a{
+    font-size: 1rem;
+}
+.menu{
+    color: #0A2640;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+@keyframes animatetop{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 40px;
+        opacity: 1;
+    }
+}
+
+.main-container{
+background-color: white; 
+display: none;
+position: fixed;
+animation-name: animatetop;
+animation-duration: 0.5s;
+left: 120px;
+top: 30px;
+padding: 0rem;
+margin: 0rem;
+width: 80%;
+height: 600px;
+overflow: hidden;
+z-index: 1;
+}
+.close-modal{
+    background-color: red;
+    width: 50px;
+    padding: 1rem;
+    float: right;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.p-one{
+    color: gray;
+    text-align: center;
+}
+.p-two{
+    text-align: center;
+    font-size: larger;
+    line-height: 18px;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 0px 2px 0px 2px;
+    padding: 0px 5px;
+}
+.box-one img{
+    margin: 1rem;
+}
+.box-two img{
+    margin: 1rem;
+}
+.box-three img{
+    margin: 1rem;
+}
+.user-details{
+    background-color: #69E6A6;
+    width: 90%;
+    margin: 1em auto;
+    border-radius: 2em;
+    padding: 1em;
+    display: flex;
+    place-content: space-around;
+    place-items: center;
+}
+.user-info{
+    padding: 0em;
+}
+.details{
+    padding: 1em;
+}
+.details-label{
+    margin-right: 1em;
+}
+.details-input{
+    margin-left: 1em;
+    text-align: center;
+}
+.edit-and-campaign-btn{
+    display: flex;
+    flex-direction: column;
+}
+.loadmore {
+    margin: 5em auto;
+    text-align: center;
+}
+.loadmore a{
+    padding: 1rem 2em;
+    border: 2px solid #0A2640;
+    border-radius: 2em;
+    background-color: #0A2640;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.transaction{
+    margin:1em 7em;
+    padding: 0em;
+    display: flex;
+    justify-content: center;
+}
+.balance{
+    background-color: #0A2640;
+    padding: 2em 12em 2em 2em;
+    margin: 1em ;
+    color: white;
+    border-radius: 2em;
+}
+.balance div p{
+    margin: 1em;
+}
+.percent-with-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.balance p{
+    margin: 1em;
+}
+.transfers{
+    padding: 0em;
+    margin: 0em;
+}
+.banks{
+    background-color: #69E6A6;
+    margin: 1em;
+    padding: 0em;
+    display: flex;
+    justify-content: space-between;
+}
+.banks div p{
+    margin: 1em;
+}
+.banks div p span{
+    margin-left: 4em;
+}
+
+
+.hero {
+    margin-top: 0rem;
+    padding: 1rem;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+.hero-image {
+   margin: 1rem;
+}
+
+.hero-text{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+} 
+.hero-text h1 {
+    padding: 1rem;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    text-align: left;
+}
+.hero-text h5 {
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 0.1rem;
+}
+
+.fund-button {
+    border: none;
+    margin: 1rem;
+
+}
+#fund {
+    margin: 2rem 10rem 2rem 0rem;
+    padding: 1rem 3rem;
+    align-items: center;
+    color: white;
+    background-color: #0A2640;
+    border-radius: 4em;
+    font-weight: bolder;
+}
+.progress-with-text{
+    margin: 1rem;
+    padding:2rem;
+}
+
+.progress {
+    display: flex;
+    place-content: center;
+}
+.progress p {
+    font-family: 'Open Sans', sans-serif;
+}
+.green-gray{
+   display: flex;
+   place-content: center;
+   place-items: center;
+   margin: 1rem;
+   padding: 0rem 0rem 0rem 0rem;
+   height: 1rem;
+   width: 100%;
+}
+.green{
+    background-color: green;
+    margin: 0.2rem;
+    height: 100%;
+    width: 2rem;
+}
+.gray{
+    background-color: grey;
+    margin: 0.2rem;
+    height: 100%;
+    width: 2rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content:center;
+    padding: 0rem auto;
+}
+.getfund{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.getfund div{
+font-size: 2rem;
+margin-bottom: 2rem;
+font-weight: bolder;
+}
+.fundraisefor{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.fundraisefor div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+.resources{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem;
+    width: 33%;
+}
+.resources div{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    }
+li{
+    list-style: none;
+    text-align: left;
+}

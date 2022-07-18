@@ -181,7 +181,7 @@ hr{
     display: flex;
     justify-content: center;
 }
-.post button{
+.post a{
     color: white;
     font-weight: bolder;
     background-color: #0A2640;
