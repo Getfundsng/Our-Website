@@ -553,7 +553,7 @@ li{
     }
 }
 
-@media (min-width: 600px) and (max-width: 1010px){
+@media (min-width: 600px) and (max-width: 1090px){
     body{
         max-width: 100%;
     }
@@ -565,8 +565,7 @@ li{
         flex-direction: column;
     }
     .menu-home::after{
-        left: 140px;
-        top: 158px;
+        display: none;
     }
     .main-container{
         background-color: white; 
@@ -1023,7 +1022,7 @@ footer{
     width: 90%;
 }
 .getfund div span img{
-    width: 30%;
+    width: 80%;
 }
 
 .fundraisefor{
