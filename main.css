@@ -740,30 +740,44 @@ footer{
 
     header{
         width: 100%;
-        padding: 2rem 0rem 5rem; 
+        padding: 2rem 0rem 1rem; 
     }
 
     .logonav{
         flex-direction: column;
-        /* width: 100%; */
-        align-items: center;
-        place-content: space-evenly;
+        width: 100%;
+        place-content: space-between;
+        place-items: center;
+        font-size: 1rem;
     }
-    .logonav h1{
-        align-items: center;
-        text-align: left;
+    /* .logonav h1{
         margin: 0rem;
         padding: 0rem;
+        width: 60%;
+    } */
+    .logonav img{
+        width: 100%;
+        margin: 0em;
+        padding: 0em;
     }
     nav ul{
         display: none;
         flex-direction: column;
     }
+
     .menu-home::after{
         display: none;
     }
     #menu{
         display: block;
+    }
+    .login{
+        /* background-color: white; */
+        color: white;
+        border: 0.15rem solid white;
+        margin-left: 0rem;
+        padding: 0.5rem 1.5rem ;
+        text-decoration: none;
     }
     .main-container{
         background-color: white; 
