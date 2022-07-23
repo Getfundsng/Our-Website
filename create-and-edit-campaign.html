@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Create Campaign</title>
     <link rel="stylesheet" href="create-and-edit-campaign.css">
 </head>
+
 <body>
 
     <header>
@@ -18,6 +20,8 @@
                     <li><a class="menu" href="#" onclick="show()">How It Works</a></li>
                     <li><a class="menu" href="about.html">About</a></li>
                     <li><a class="menu" href="#">Search</a></li>
+                    <li><a class="menuimg" href="#"><img src="images/profilepicture.png" alt=""></a></li>
+
                 </ul>
             </nav>
         </div>
@@ -26,21 +30,48 @@
                 <p class="p-two"> Your dreams can come alive with <br> GETFUNDS</p>
             </div>
 
-            <p class="close-modal" id="close-modal" >&times;</p>
+            <p class="close-modal" id="close-modal">&times;</p>
 
             <div class="box-container">
                 <div class=" box-one"> <img src="Pictures/Service.png" alt="A picture of service 1"></div>
                 <div class=" box-two"> <img src="Pictures/Service (1).png" alt="A picture of service 2"></div>
                 <div class=" box-three"> <img src="Pictures/Service (2).png" alt="A picture of service 3"></div>
             </div>
-            
-        </div>
-        </header>
 
+        </div>
+    </header>
+
+    <form action="#" method="post">
         <div class="requirements">
             <div class="files-upload">
-                <small>Note: any image you add here  wil be added  in between your stiry paragraph</small><br>
+                <small style="color:red; margin-bottom: 1rem;">Upload Supporting Documents</small><br>
+                <input type="file" value=""><br>
+                <small style="color:red; margin-bottom: 1rem;">Upload Supporting Documents  (ID card,Medical reports e.t.c.)</small><br>
                 <input type="file" value="">
+                <div class="select-category">
+                    Select a Category
+                    <select name="category" id="">
+                        <option value="">Select Category</option>
+                        <option value="Medical">Medical</option>
+                        <option value="Enviroment">Enviroment</option>
+                        <option value="Memorial">Memorial</option>
+                        <option value="Business">Business</option>
+                        <option value="Community">Community</option>
+                        <option value="Emergency">Emergency</option>
+                        <option value="Competition">Competition</option>
+                        <option value="Non-profit">Non-profit</option>
+                        <option value="Creative">Creative</option>
+                        <option value="Education">Education</option>
+                        <option value="Animal">Animal</option>
+                        <option value="Event">Event</option>
+                        <option value="Volunteer">Volunteer</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Faith">Faith</option>
+                        <option value="Family">Family</option>
+                        <option value="Sport">Sport</option>
+                        <option value="Wish">Wish</option>
+                    </select>
+                </div>
                 <div class="duration">
                     Set Campaign duration.
                     <select name="" id="">
@@ -66,11 +97,11 @@
             </div>
         </div>
 
-        <div class="writeyourstory"> 
+        <div class="writeyourstory">
             <span><img src="images/edit-3.png" alt=""> write your story</span>
 
             <span class="clipboard"><img src="images/clipboard.png" alt="">My Story</span>
-        
+
         </div>
 
 
@@ -78,12 +109,12 @@
 
             <label for="coverpicture" class="coverpic-label">
                 <img src="images/set cover picture.png" alt=""><span>Set Cover Picture</span>
-                
+
                 <input id="coverpicture" type="file" class="coverpicture">
             </label>
 
             <br>
-            
+
             <input type="text" class="title" placeholder="Title"> <br>
             <input type="text" class="description" placeholder="Short Description">
 
@@ -96,9 +127,10 @@
         <div class="post">
             <a class="preview" href="campaign-preview.html">Preview</a>
             <a class="preview" href="profile.html">Post</a>
-            
-        </div> 
-        <script src="main.js"></script>       
-    
+        </div>
+    </form>
+    <script src="main.js"></script>
+
 </body>
+
 </html>
