@@ -175,6 +175,39 @@ z-index: 1;
 padding-right: 1rem;
 margin-right: 0rem;
 }
+.progress-with-text{
+    margin: .5rem;
+    padding:.5rem;
+}
+
+.progress {
+    display: flex;
+    place-content: center;
+}
+.progress p {
+    font-family: 'Open Sans', sans-serif;
+}
+.green-gray{
+   display: flex;
+   place-content: center;
+   place-items: center;
+   margin: 1rem;
+   padding: 0rem 0rem 0rem 0rem;
+   height: 1rem;
+   width: 100%;
+}
+.green{
+    background-color: green;
+    margin: 0.2rem;
+    height: 100%;
+    width: 2rem;
+}
+.gray{
+    background-color: grey;
+    margin: 0.2rem;
+    height: 100%;
+    width: 2rem;
+}
 .showmore{
 display: flex;
 place-content: center;
